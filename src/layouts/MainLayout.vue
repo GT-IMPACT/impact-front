@@ -1,7 +1,7 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-
+  <q-layout>
+    <q-header class="q-my-lg bg-none">
+      <Header />
     </q-header>
 
     <q-page-container>
@@ -14,17 +14,25 @@
 
 <script>
 
-import { defineComponent, ref } from 'vue'
+import {defineComponent} from 'vue'
+import Header from "pages/comps/Header";
 
 export default defineComponent({
   name: 'MainLayout',
+  components: {Header},
+  setup() {
 
-  setup () {
-
-
-    return {
-
-    }
+    return {}
   }
 })
 </script>
+<style>
+.bg-none {
+  background: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+</style>

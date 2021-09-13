@@ -2,6 +2,13 @@
 // so you can safely delete all default props below
 
 export default {
-  failed: 'Action failed',
-  success: 'Action was successful'
+
+  home: 'Home',
+  about: 'About modpack',
+  download: 'Download',
+  wiki: 'Wiki',
+
+  //home page
+  home_title_impact: 'Unique modpack based on gregtech',
+  update_progress: 'Update 1.0.1.7',
 }
