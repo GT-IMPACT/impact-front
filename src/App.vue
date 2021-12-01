@@ -1,4 +1,4 @@
-<! - id = "q-app" ->
+<!-- id = "q-app" -->
 <template>
   <router-view />
 </template>
