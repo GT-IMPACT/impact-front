@@ -5,7 +5,7 @@ const mods = [
       {
         id: 0,
         name: "COKE OVEN",
-        img: "https://gtimpact.space/wp-content/uploads/2021/07/cokeoven-300x300.png",
+        img: "https://gtimpact.space/media/gregtech/cokeoven.png",
         desc: 'This machine is designed for the production of charcoal / coke coal and creosote in the early stages.',
         general: 'The oven carries out recipes that can be seen at NEI.',
         other: [
@@ -15,14 +15,13 @@ const mods = [
               {p: 'This machine has no unusual mechanics. An important note — all recipes are completed in the same time: 90 seconds.',},
             ],
             img: [
-              // {img: 'https://gtimpact.space/wp-content/uploads/2021/07/sawmill-300x300.png',}
             ]
           }
         ]
       }, {
         id: 1,
         name: "PRIMITIVE WATER PUMP",
-        img: "https://gtimpact.space/wp-content/uploads/2021/07/primwaterpump.png",
+        img: "https://gtimpact.space/media/gregtech/primwaterpump.png",
         desc: 'Designed to generate water at the initial stages and in hard-to-reach places without power supply.',
         general: 'The machine generates water without electricity depending on the biome in which the controller is located.',
         other: [
@@ -40,7 +39,7 @@ const mods = [
       }, {
         id: 2,
         name: "SAW MILL",
-        img: "https://gtimpact.space/wp-content/uploads/2021/07/sawmill-300x300.png",
+        img: "https://gtimpact.space/media/gregtech/sawmill.png",
         desc: 'Designed for woodworking, since all other woodworking mechanics are disabled (except hand tools), you will need this machine for processing.',
         general: 'The machine has 3 operating modes. Modes are switched using Screwdriver.',
         other: [
@@ -67,7 +66,7 @@ const mods = [
       }, {
         id: 3,
         name: "PYROLYSE OVEN",
-        img: "https://gtimpact.space/wp-content/uploads/2021/07/purolyse.png",
+        img: "https://gtimpact.space/media/gregtech/purolyse.png",
         desc: 'The principle of operation of a pyrolysis oven is based on the thermal decomposition of organic substances into pyrolysis gases and solid residues.',
         general: 'The machine has a unique mechanics — product output during operation.',
         other: [
@@ -87,7 +86,7 @@ const mods = [
       }, {
         id: 4,
         name: "ADVANCED PYROLYSE OVEN",
-        img: "https://gtimpact.space/wp-content/uploads/2021/07/AdvPyrolyse.png",
+        img: "https://gtimpact.space/media/gregtech/AdvPyrolyse.png",
         desc: 'The principle of operation of a pyrolysis oven is based on the thermal decomposition of organic substances into pyrolysis gases and solid residues.',
         general: 'The advanced Pyrolysis Oven differs from the conventional Pyrolysis Oven in that it is parallel (several recipes are executed at the same time).',
         other: [
@@ -119,7 +118,7 @@ const mods = [
       }, {
         id: 5,
         name: "ELECTRIC WATER DRILLING RIG",
-        img: "https://gtimpact.space/wp-content/uploads/2021/07/ElWater.png",
+        img: "https://gtimpact.space/media/gregtech/ElWater.png",
         desc: 'Designed for pumping water from bedrock using electricity.',
         general: 'The machine pumps out water from bedrock using electricity, depending on the biome in which the controller is located, and Energy Hatch and Output Hatch range.',
         other: [
@@ -155,7 +154,7 @@ const mods = [
       }, {
         id: 6,
         name: "SPACE SATELLITE",
-        img: "https://gtimpact.space/wp-content/uploads/2021/07/SpaceSatellite.png",
+        img: "https://gtimpact.space/media/gregtech/SpaceSatellite.png",
         desc: 'The Space Satellite allows for wireless communication between machines on earth.',
         general: '— Need a Communication Tower',
         other: [
@@ -186,7 +185,7 @@ const mods = [
       }, {
         id: 7,
         name: "COMMUNICATION TOWER",
-        img: "https://gtimpact.space/wp-content/uploads/2021/07/ParTower.png",
+        img: "https://gtimpact.space/media/gregtech/ParTower.png",
         desc: 'The Communication Tower allows wireless communication between the satellite in orbit and machines on the «Earth».',
         general: '— Need a Space Satellite',
         other: [
@@ -213,7 +212,7 @@ const mods = [
       }, {
         id: 8,
         name: "NUCLEAR REACTOR",
-        img: "https://gtimpact.space/wp-content/uploads/2021/07/NuclearReactor.png",
+        img: "https://gtimpact.space/media/gregtech/NuclearReactor.png",
         desc: 'There are 3 tiers of the reactor, they differ in structure and the amount of rods (1, 9 or 25). ' +
           'Designed for the generation of conventional / superheated steam and for the extraction of radioactive resources.',
         general: 'The nuclear reactor has 2 modes of operation, Default Mode and Fast Decay Mode. Each mode includes 2 types of fuel: regular rods and MOX rods.',
@@ -263,7 +262,7 @@ const mods = [
       }, {
         id: 9,
         name: "PARALLEL SUPER COMPUTER",
-        img: "https://gtimpact.space/wp-content/uploads/2021/07/ParComputer.png",
+        img: "https://gtimpact.space/media/gregtech/ParComputer.png",
         desc: 'The supercomputer allows parallels to be distributed to Impact machines.',
         general: '— Need a Space Satellite',
         other: [
