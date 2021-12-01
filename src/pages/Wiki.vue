@@ -22,7 +22,7 @@
                   </q-card-section>
                   <q-card class="row justify-center" flat>
                     <div v-for="page in mod.pages" :key="page" class="q-ma-xs" style="width: 250px">
-                      <q-item :disable="page.id >= 10" clickable @click="getNews(page)">
+                      <q-item :disable="page.id > 9" clickable @click="page.id <= 9 ? getNews(page) : ''">
                         <q-card class="q-pa-none q-ma-none bg-none " flat square style="width: 100%; height: 100%">
                           <q-img :src="page.img" height="205px" width="205px" />
                           <q-item-label lines="1" style="text-transform: uppercase">{{ page.name }}</q-item-label>
