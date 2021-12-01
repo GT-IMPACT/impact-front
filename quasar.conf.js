@@ -141,7 +141,7 @@ module.exports = configure(function (ctx) {
       manifest: {
         name: `gt-impact`,
         short_name: `gt-impact`,
-        description: `website fot modpack impact`,
+        description: `IMPACT GREGTECH EDITION WEBSITE`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
