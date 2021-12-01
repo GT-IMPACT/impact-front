@@ -1,7 +1,11 @@
 <template>
-  <q-card class="bg-blur header-h row items-center justify-evenly" flat square>
+  <q-card class="bg-blur header-h row items-center justify-evenly q-mb-lg" flat square>
     <q-card-section class="q-py-none">
-      <q-item class="items-center" clickable>LOGO</q-item>
+      <q-item class="items-center justify-center" active-class="color: white" to='/' clickable>
+        <q-item-section class="text-bold text-h4 items-center">IMPACT</q-item-section>
+        <q-item-section class="items-center" style="max-width: 80px; font-size: 12px;">GREGTECH EDITION</q-item-section>
+
+      </q-item>
     </q-card-section>
     <q-card-section class="q-py-none">
       <q-list class="row">

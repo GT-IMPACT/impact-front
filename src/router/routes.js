@@ -2,9 +2,27 @@
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/MainLayout.vue'),
+    component: () => import('layouts/MainLayout'),
     children: [
-      { path: '', component: () => import('pages/Index.vue') }
+      { path: '', component: () => import('pages/Index') }
+    ]
+  },  {
+    path: '/about',
+    component: () => import('layouts/MainLayout'),
+    children: [
+      { path: '', component: () => import('pages/About') }
+    ]
+  },  {
+    path: '/download',
+    component: () => import('layouts/MainLayout'),
+    children: [
+      { path: '', component: () => import('pages/Download') }
+    ]
+  },  {
+    path: '/wiki',
+    component: () => import('layouts/MainLayout'),
+    children: [
+      { path: '', component: () => import('pages/Wiki') }
     ]
   },
 

@@ -2,27 +2,26 @@
   <q-page style="min-height: 750px;">
     <q-card class="q-pa-none bg-none" flat square style="margin-top: 50px;">
       <q-card class="row justify-center items-center bg-none" flat>
-        <q-card-section class="text-white" style="width: 450px; text-align: center">
-          <span style="text-transform: uppercase; font-size: 50px; font-weight: 900;">{{
-              $t('home_title_impact')
-            }}</span>
+        <q-card-section class="text-white" style="width: 450px; text-align: right">
+          <span style="text-transform: uppercase; font-size: 50px; font-weight: 900;">
+            {{$t('home_title_impact') }}
+          </span>
         </q-card-section>
         <q-card-section>
           <div class="q-pa-md">
-            <q-carousel v-model="slide" animated infinite style="width: 500px; height: 300px;" swipeable thumbnails>
-              <q-carousel-slide :name="1" img-src="https://cdn.quasar.dev/img/mountains.jpg" />
-              <q-carousel-slide :name="2" img-src="https://cdn.quasar.dev/img/parallax1.jpg" />
-              <q-carousel-slide :name="3" img-src="https://cdn.quasar.dev/img/parallax2.jpg" />
-              <q-carousel-slide :name="4" img-src="https://cdn.quasar.dev/img/quasar.jpg" />
+            <q-carousel v-model="slide" navigation arrows animated infinite style="width: 500px; height: 300px;" swipeable>
+              <template v-for="(pic, id) in updates.homePic" :key="pic">
+                <q-carousel-slide :name="id" :img-src="pic.src" />
+              </template>
             </q-carousel>
           </div>
         </q-card-section>
       </q-card>
       <q-card class="q-pa-none bg-none " flat>
         <div class="row justify-center items-center">
-          <span class="text-white" style="text-transform: uppercase; font-weight: 700;">{{
-              $t('update_progress')
-            }}</span>
+          <span class="text-white" style="text-transform: uppercase; font-weight: 700;">
+            {{$t('update_progress') }}
+          </span>
         </div>
         <div class="row justify-center items-center">
           <q-linear-progress :value="update" class="q-mt-sm" color="orange" dark rounded size="20px" stripe style="width: 600px;" />
@@ -56,6 +55,7 @@
 <script>
 import {defineComponent, ref} from 'vue'
 import {useI18n} from 'vue-i18n'
+import updates from 'assets/updates.js'
 
 export default defineComponent({
   name: 'PageIndex',
@@ -64,18 +64,13 @@ export default defineComponent({
     return {
       locale,
       slide: ref(1),
-      update: 0.15
+      update: 0.15,
+      updates
     }
   }
 })
 </script>
 <style>
-body {
-  background: url('https://cdn.discordapp.com/attachments/886791383740985464/886899207678611506/bg.png') no-repeat center top;
-  background-size: cover;
-
-}
-
 .bg-none {
   background: none;
 }
