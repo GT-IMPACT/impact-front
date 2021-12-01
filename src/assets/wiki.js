@@ -5,7 +5,7 @@ const mods = [
       {
         id: 0,
         name: "COKE OVEN",
-        img: "cokeoven.png",
+        img: "https://gtimpact.space/media/gregtech/cokeoven.png",
         desc: 'This machine is designed for the production of charcoal / coke coal and creosote in the early stages.',
         general: 'The oven carries out recipes that can be seen at NEI.',
         other: [
@@ -21,7 +21,7 @@ const mods = [
       }, {
         id: 1,
         name: "PRIMITIVE WATER PUMP",
-        img: "primwaterpump.png",
+        img: "https://gtimpact.space/media/gregtech/primwaterpump.png",
         desc: 'Designed to generate water at the initial stages and in hard-to-reach places without power supply.',
         general: 'The machine generates water without electricity depending on the biome in which the controller is located.',
         other: [
@@ -39,7 +39,7 @@ const mods = [
       }, {
         id: 2,
         name: "SAW MILL",
-        img: "sawmill.png",
+        img: "https://gtimpact.space/media/gregtech/sawmill.png",
         desc: 'Designed for woodworking, since all other woodworking mechanics are disabled (except hand tools), you will need this machine for processing.',
         general: 'The machine has 3 operating modes. Modes are switched using Screwdriver.',
         other: [
@@ -66,7 +66,7 @@ const mods = [
       }, {
         id: 3,
         name: "PYROLYSE OVEN",
-        img: "purolyse.png",
+        img: "https://gtimpact.space/media/gregtech/purolyse.png",
         desc: 'The principle of operation of a pyrolysis oven is based on the thermal decomposition of organic substances into pyrolysis gases and solid residues.',
         general: 'The machine has a unique mechanics — product output during operation.',
         other: [
@@ -86,7 +86,7 @@ const mods = [
       }, {
         id: 4,
         name: "ADVANCED PYROLYSE OVEN",
-        img: "AdvPyrolyse.png",
+        img: "https://gtimpact.space/media/gregtech/AdvPyrolyse.png",
         desc: 'The principle of operation of a pyrolysis oven is based on the thermal decomposition of organic substances into pyrolysis gases and solid residues.',
         general: 'The advanced Pyrolysis Oven differs from the conventional Pyrolysis Oven in that it is parallel (several recipes are executed at the same time).',
         other: [
@@ -118,7 +118,7 @@ const mods = [
       }, {
         id: 5,
         name: "ELECTRIC WATER DRILLING RIG",
-        img: "ElWater.png",
+        img: "https://gtimpact.space/media/gregtech/ElWater.png",
         desc: 'Designed for pumping water from bedrock using electricity.',
         general: 'The machine pumps out water from bedrock using electricity, depending on the biome in which the controller is located, and Energy Hatch and Output Hatch range.',
         other: [
@@ -154,7 +154,7 @@ const mods = [
       }, {
         id: 6,
         name: "SPACE SATELLITE",
-        img: "SpaceSatellite.png",
+        img: "https://gtimpact.space/media/gregtech/SpaceSatellite.png",
         desc: 'The Space Satellite allows for wireless communication between machines on earth.',
         general: '— Need a Communication Tower',
         other: [
@@ -178,14 +178,14 @@ const mods = [
               {p: 'Setting the frequency for the Space Satellite'},
             ],
             img: [{
-              img: 'connectSattelite.gif'
+              img: 'https://gtimpact.space/media/gregtech/connectSattelite.gif'
             }]
           },
         ]
       }, {
         id: 7,
         name: "COMMUNICATION TOWER",
-        img: "ParTower.png",
+        img: "https://gtimpact.space/media/gregtech/ParTower.png",
         desc: 'The Communication Tower allows wireless communication between the satellite in orbit and machines on the «Earth».',
         general: '— Need a Space Satellite',
         other: [
@@ -206,13 +206,13 @@ const mods = [
               {p: ''},
               {p: 'Setting the frequency for connecting the Communication Tower to the satellite'}
             ],
-            img: [{img: 'connectTowerSattelite.gif'}]
+            img: [{img: 'https://gtimpact.space/media/gregtech/connectTowerSattelite.gif'}]
           },
         ]
       }, {
         id: 8,
         name: "NUCLEAR REACTOR",
-        img: "NuclearReactor.png",
+        img: "https://gtimpact.space/media/gregtech/NuclearReactor.png",
         desc: 'There are 3 tiers of the reactor, they differ in structure and the amount of rods (1, 9 or 25). ' +
           'Designed for the generation of conventional / superheated steam and for the extraction of radioactive resources.',
         general: 'The nuclear reactor has 2 modes of operation, Default Mode and Fast Decay Mode. Each mode includes 2 types of fuel: regular rods and MOX rods.',
@@ -242,7 +242,7 @@ const mods = [
               {p: 'Reactor control'},
             ],
             img: [{
-              img: 'NuclearGui.png'
+              img: 'https://gtimpact.space/media/gregtech/NuclearGui.png'
             }]
           }, {
             title: 'Rod control',
@@ -255,14 +255,14 @@ const mods = [
               {p: 'Rod control'},
             ],
             img: [{
-              img: 'NuclearHatch.png'
+              img: 'https://gtimpact.space/media/gregtech/NuclearHatch.png'
             }]
           },
         ]
       }, {
         id: 9,
         name: "PARALLEL SUPER COMPUTER",
-        img: "ParComputer.png",
+        img: "https://gtimpact.space/media/gregtech/ParComputer.png",
         desc: 'The supercomputer allows parallels to be distributed to Impact machines.',
         general: '— Need a Space Satellite',
         other: [
@@ -302,172 +302,172 @@ const mods = [
               {p: ''},
               {p: 'Setting the frequency for connecting the Computer to the Communication Tower'},
             ],
-            img: [{img: 'connectTowerComp.gif'}]
+            img: [{img: 'https://gtimpact.space/media/gregtech/connectTowerComp.gif'}]
           },{
            title: '',
            desc: [
              {p: 'Parallel Processors in a Computer Rack'},
            ],
-            img: [{img: 'ComputerRackGUI.png'}]
+            img: [{img: 'https://gtimpact.space/media/gregtech/ComputerRackGUI.png'}]
          },{
            title: '',
            desc: [
              {p: 'Setting up the transmit of PP from the computer to the machine'},
            ],
-            img: [{img: 'connectMachineComp.gif'}]
+            img: [{img: 'https://gtimpact.space/media/gregtech/connectMachineComp.gif'}]
          },
         ]
       },{
         id: 10,
         name: "Lapotronic Supercapacitor",
-        img: "LSC.png",
+        img: "https://gtimpact.space/media/gregtech/LSC.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 11,
         name: "Multi PBE Machine",
-        img: "ParBPE.png",
+        img: "https://gtimpact.space/media/gregtech/ParBPE.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 12,
         name: "Multi Laser Engraver",
-        img: "ParLaser.png",
+        img: "https://gtimpact.space/media/gregtech/ParLaser.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 13,
         name: "Multi Assembling Machine",
-        img: "ParAssembler.png",
+        img: "https://gtimpact.space/media/gregtech/ParAssembler.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 14,
         name: "Multi Centrifuge",
-        img: "ParCentrifuge.png",
+        img: "https://gtimpact.space/media/gregtech/ParCentrifuge.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 15,
         name: "Multi Electrolyzer",
-        img: "ParElectr.png",
+        img: "https://gtimpact.space/media/gregtech/ParElectr.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 16,
         name: "Multi Wire Factory",
-        img: "ParWire.png",
+        img: "https://gtimpact.space/media/gregtech/ParWire.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 17,
         name: "Multi Supply Production",
-        img: "ParSupply.png",
+        img: "https://gtimpact.space/media/gregtech/ParSupply.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 18,
         name: "Multi Utility Machine",
-        img: "ParUtill.png",
+        img: "https://gtimpact.space/media/gregtech/ParUtill.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 19,
         name: "Multi Brewmenter",
-        img: "ParBrew.png",
+        img: "https://gtimpact.space/media/gregtech/ParBrew.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 20,
         name: "Multi Arc Furnace",
-        img: "ParArc.png",
+        img: "https://gtimpact.space/media/gregtech/ParArc.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 21,
         name: "Multi Cutting Machine",
-        img: "ParCutt.png",
+        img: "https://gtimpact.space/media/gregtech/ParCutt.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 22,
         name: "Multi Extradification",
-        img: "ParExtraDi.png",
+        img: "https://gtimpact.space/media/gregtech/ParExtraDi.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 23,
         name: "Multi Maceration Stack",
-        img: "ParMacer.png",
+        img: "https://gtimpact.space/media/gregtech/ParMacer.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 24,
         name: "Multi Mixing Machine",
-        img: "ParMix.png",
+        img: "https://gtimpact.space/media/gregtech/ParMix.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 25,
         name: "Multi Siftaration Unit",
-        img: "ParSift.png",
+        img: "https://gtimpact.space/media/gregtech/ParSift.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 26,
         name: "Freezer Solidifier",
-        img: "ParFrezSolid.png",
+        img: "https://gtimpact.space/media/gregtech/ParFrezSolid.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 27,
         name: "Blast Smelter",
-        img: "BlastSmelter.png",
+        img: "https://gtimpact.space/media/gregtech/BlastSmelter.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 28,
         name: "Advanced Vacuum Freezer",
-        img: "ParFreez.png",
+        img: "https://gtimpact.space/media/gregtech/ParFreez.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 29,
         name: "Rail Assembler",
-        img: "RailAssembler.png",
+        img: "https://gtimpact.space/media/gregtech/RailAssembler.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 30,
         name: "",
-        img: ".png",
+        img: "https://gtimpact.space/media/gregtech/.png",
         desc: '',
         general: '',
         other: []
       },{
         id: 31,
         name: "",
-        img: ".png",
+        img: "https://gtimpact.space/media/gregtech/.png",
         desc: '',
         general: '',
         other: []
@@ -476,7 +476,7 @@ const mods = [
          {
             id: 0,
             name: "",
-            img: "",
+            img: "https://gtimpact.space/media/gregtech/",
             desc: '',
             general: '',
             other: [

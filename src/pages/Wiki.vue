@@ -24,7 +24,7 @@
                     <div v-for="page in mod.pages" :key="page" class="q-ma-xs" style="width: 250px">
                       <q-item :disable="page.id >= 10" clickable @click="getNews(page)">
                         <q-card class="q-pa-none q-ma-none bg-none " flat square style="width: 100%; height: 100%">
-                          <q-img :src="'https://gtimpact.space/media/gregtech/' + page.img" height="205px" width="205px" />
+                          <q-img :src="page.img" height="205px" width="205px" />
                           <q-item-label lines="1" style="text-transform: uppercase">{{ page.name }}</q-item-label>
                         </q-card>
                       </q-item>
@@ -41,7 +41,7 @@
         <q-card class="q-pa-lg" style="width: 800px; max-width: 1200px" flat square>
 
           <q-card-section class="text-h4 items-center text-bold">{{ titlePage }}</q-card-section>
-          <q-img :src="'https://gtimpact.space/media/gregtech/' + imgPage" height="300px" width="300px" />
+          <q-img :src="imgPage" height="300px" width="300px" />
 
           <q-card-section class="items-center q-pb-none">
             <q-item class="text-h5 text-bold items-center q-py-none">{{ $t('wiki_desc') }}</q-item>
@@ -61,7 +61,7 @@
             <template v-for="img in other.img" :key="img">
               <q-card-section v-if="img.img !== null" class="q-pa-none">
                 <q-item class="items-center q-py-none">
-                  <q-img :src="'https://gtimpact.space/media/gregtech/' + img.img" class="img-fix items-center q-pa-none" style="max-height: 600px; max-width: 600px" />
+                  <q-img :src="img.img" class="img-fix items-center q-pa-none" style="max-height: 600px; max-width: 600px" />
                 </q-item>
               </q-card-section>
             </template>
