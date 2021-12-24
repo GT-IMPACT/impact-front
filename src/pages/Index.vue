@@ -64,7 +64,7 @@ export default defineComponent({
     return {
       locale,
       slide: ref(1),
-      update: 0.15,
+      update: 0.6,
       updates
     }
   }
