@@ -1,9 +1,11 @@
 const mods = [
   {
+    id: 0,
     mod: 'impact-core',
     pages: [
       {
         id: 0,
+        tier: 'steam',
         name: "COKE OVEN",
         img: "https://gtimpact.space/media/gregtech/cokeoven.png",
         desc: 'This machine is designed for the production of charcoal / coke coal and creosote in the early stages.',
@@ -14,12 +16,12 @@ const mods = [
             desc: [
               {p: 'This machine has no unusual mechanics. An important note — all recipes are completed in the same time: 90 seconds.',},
             ],
-            img: [
-            ]
+            img: []
           }
         ]
       }, {
         id: 1,
+        tier: 'steam',
         name: "PRIMITIVE WATER PUMP",
         img: "https://gtimpact.space/media/gregtech/primwaterpump.png",
         desc: 'Designed to generate water at the initial stages and in hard-to-reach places without power supply.',
@@ -38,6 +40,7 @@ const mods = [
         ]
       }, {
         id: 2,
+        tier: 'ulv',
         name: "SAW MILL",
         img: "https://gtimpact.space/media/gregtech/sawmill.png",
         desc: 'Designed for woodworking, since all other woodworking mechanics are disabled (except hand tools), you will need this machine for processing.',
@@ -65,6 +68,7 @@ const mods = [
         ]
       }, {
         id: 3,
+        tier: 'lv',
         name: "PYROLYSE OVEN",
         img: "https://gtimpact.space/media/gregtech/purolyse.png",
         desc: 'The principle of operation of a pyrolysis oven is based on the thermal decomposition of organic substances into pyrolysis gases and solid residues.',
@@ -85,6 +89,7 @@ const mods = [
         ]
       }, {
         id: 4,
+        tier: 'mv',
         name: "ADVANCED PYROLYSE OVEN",
         img: "https://gtimpact.space/media/gregtech/AdvPyrolyse.png",
         desc: 'The principle of operation of a pyrolysis oven is based on the thermal decomposition of organic substances into pyrolysis gases and solid residues.',
@@ -117,6 +122,7 @@ const mods = [
         ]
       }, {
         id: 5,
+        tier: 'hv',
         name: "ELECTRIC WATER DRILLING RIG",
         img: "https://gtimpact.space/media/gregtech/ElWater.png",
         desc: 'Designed for pumping water from bedrock using electricity.',
@@ -153,6 +159,7 @@ const mods = [
         ]
       }, {
         id: 6,
+        tier: 'hv',
         name: "SPACE SATELLITE",
         img: "https://gtimpact.space/media/gregtech/SpaceSatellite.png",
         desc: 'The Space Satellite allows for wireless communication between machines on earth.',
@@ -184,6 +191,7 @@ const mods = [
         ]
       }, {
         id: 7,
+        tier: 'ev',
         name: "COMMUNICATION TOWER",
         img: "https://gtimpact.space/media/gregtech/ParTower.png",
         desc: 'The Communication Tower allows wireless communication between the satellite in orbit and machines on the «Earth».',
@@ -211,6 +219,7 @@ const mods = [
         ]
       }, {
         id: 8,
+        tier: 'ev',
         name: "NUCLEAR REACTOR",
         img: "https://gtimpact.space/media/gregtech/NuclearReactor.png",
         desc: 'There are 3 tiers of the reactor, they differ in structure and the amount of rods (1, 9 or 25). ' +
@@ -261,6 +270,7 @@ const mods = [
         ]
       }, {
         id: 9,
+        tier: 'iv',
         name: "PARALLEL SUPER COMPUTER",
         img: "https://gtimpact.space/media/gregtech/ParComputer.png",
         desc: 'The supercomputer allows parallels to be distributed to Impact machines.',
@@ -303,197 +313,578 @@ const mods = [
               {p: 'Setting the frequency for connecting the Computer to the Communication Tower'},
             ],
             img: [{img: 'https://gtimpact.space/media/gregtech/connectTowerComp.gif'}]
-          },{
-           title: '',
-           desc: [
-             {p: 'Parallel Processors in a Computer Rack'},
-           ],
+          }, {
+            title: '',
+            desc: [
+              {p: 'Parallel Processors in a Computer Rack'},
+            ],
             img: [{img: 'https://gtimpact.space/media/gregtech/ComputerRackGUI.png'}]
-         },{
-           title: '',
-           desc: [
-             {p: 'Setting up the transmit of PP from the computer to the machine'},
-           ],
+          }, {
+            title: '',
+            desc: [
+              {p: 'Setting up the transmit of PP from the computer to the machine'},
+            ],
             img: [{img: 'https://gtimpact.space/media/gregtech/connectMachineComp.gif'}]
-         },
+          },
         ]
-      },{
+      }, {
         id: 10,
+        tier: 'iv',
         name: "Lapotronic Supercapacitor",
         img: "https://gtimpact.space/media/gregtech/LSC.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
+        desc: 'Механизм позволяет хранить огромное количество энергии.',
+        general: 'Не имеет потерь и не требует ничего для работы.',
+        other: [{
+          title: 'Важно!',
+          desc: [
+            {p: 'Теряет заряд при демонтаже блока-контроллера.'},
+            {p: ''},
+            {p: 'Может иметь высоту от 2 до 15 блоков (не считая 2 блока основания).'},
+            {p: ''},
+            {p: 'Имеет поддержку Energy Detector Cover. На блоке контроллера должен быть в режиме Normal Universal Storage.'},
+          ],
+          img: []
+        },{
+          title: 'Особенности конструкции',
+          desc: [
+            {p: 'Внутри оболочки из специального стекла (I-Glass) должны располагаться различные блоки-энергоносители ' +
+                '(Energium / Lapotronic / Mysterious Crystal Capacitor). Можно комбинировать энергоносители различных уровней. ' +
+                'Количество энергоносителей должно быть кратно 9, т.е. нельзя оставлять пустые места.'},
+            {p: ''},
+            {p: 'Снизу можно размещать Energy и Dynamo Hatch разных уровней.'},
+
+          ],
+          img: []
+        },]
+      }, {
         id: 11,
+        tier: 'iv',
         name: "Multi PBE Machine",
         img: "https://gtimpact.space/media/gregtech/ParBPE.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
+        desc: 'Машина является многоблочным аналогом Extruder, Bender и Forming Press. Может работать с многоамперными Energy Hatch и параллельностью.',
+        general: 'Имеет три режима работы. Режимы переключаются отврёткой. Может работать со множеством форм(схем),' +
+          ' находящимися в разных басах в режиме "Buses separated on" (переключается отвёрткой при зажатой клавише Shift). ' +
+          'Рецепт выполняется с той формой (схемой), которая находится в том же басе, что и материал',
+        other: [
+          {
+            title: 'Параллелизм',
+            desc: [
+              {p: '- Нужен Parallel Super Computer'},
+              {p: ''},
+              {p: '- Нужена Communication Tower'},
+            ],
+            img: []
+          }, {
+            title: '',
+            desc: [
+              {p: 'Машина имеет параллелизм. Параллелизм - это способность одновременно выполнять одно и то же действие в нескольких потоках.'},
+              {p: ''},
+              {p: 'Если рассматривать параллелизм в игре, то это выполнение одного типа рецепта несколько раз за один цикл (при этом расход энергии ' +
+                  'пропорционален количеству выполняемых рецептов).'},
+              {p: ''},
+              {p: 'Машина позволяет тратить очки параллелей (PP). Очки ограничены Parallel Receiver: 4, 16, 64, 256.'},
+              {p: ''},
+              {p: 'После установки вышки связи, необходимо настроить частоту, с которой будет работать вышка, компьютер и машины. Настраивается через ноутбук, кликом по контролеру'},
+              {p: ''},
+              {p: 'Чтобы передать PP в машину, необходимо установить в нее Parallel Receiver. Затем кликните на Parallel Receiver ноутбуком и на Parallel Transmitter на компьютере.' +
+                  'Если приемник/передатчик горит красным - ошибка подключения или нет подключения, если горит желтым - успешное подключение.'},
+            ],
+            img: []
+          }, {
+            title: 'Режим 1. Extruder',
+            desc: [
+              {p: 'Выполняет все рецепты одноблочного аналога.'},
+            ],
+            img: []
+          }, {
+            title: 'Режим 2. Bender',
+            desc: [
+              {p: 'Выполняет все рецепты одноблочного аналога.'},
+            ],
+            img: []
+          }, {
+            title: 'Режим 3. Forming Press',
+            desc: [
+              {p: 'Выполняет все рецепты одноблочного аналога.'},
+              {
+                p: 'Может автоматически переименовывать предметы при помощи Mold (Name) переименованного в то название, ' +
+                  'которое будет дано предмету (Форму можно переименовать при помощи Tool Forge без расхода уровня). ' +
+                  'Работает только если в басе с этой формой лежит не более 1 стака предметов.'
+              },
+            ],
+            img: []
+          }, {
+            title: 'Структура',
+            desc: [
+              {
+                p: 'Механизм имеет геометрические размеры 5х3х3 длинна, ширина, высота соответственно. ' +
+                  'Обязательными блоками помимо контроллера являются Muffler Hatch, Maintenance Hatch, Energy Hatch. ' +
+                  'Таким образом без учёта инпут, аутпут бассов, Parallel Receiver для постройки необходим 41 структурный блок PBE Casing.'
+              },
+            ],
+            img: []
+          },
+        ]
+      }, {
         id: 12,
+        tier: 'iv',
         name: "Multi Laser Engraver",
         img: "https://gtimpact.space/media/gregtech/ParLaser.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
+        desc: 'Машина является многоблочным аналогом Laser Engraver. Может работать с многоамперными Energy Hatch и параллельностью',
+        general: 'Выполняет все рецепты одноблочного аналога. Режимы переключаются отвёрткой. Может работать со множеством линз (схем), ' +
+          'находящимися в разных басах в режиме "Buses separated on" (переключается отвёрткой при зажатой клавише Shift). ' +
+          'Рецепт выполняется с той линзой (схемой), которая находится в том же басе, что и материал.',
+        other: [
+          {
+            title: 'Параллелизм',
+            desc: [
+              {p: '- Нужен Parallel Super Computer'},
+              {p: ''},
+              {p: '- Нужена Communication Tower'},
+            ],
+            img: []
+          }, {
+            title: '',
+            desc: [
+              {p: 'Машина имеет параллелизм. Параллелизм - это способность одновременно выполнять одно и то же действие в нескольких потоках.'},
+              {p: ''},
+              {p: 'Если рассматривать параллелизм в игре, то это выполнение одного типа рецепта несколько раз за один цикл (при этом расход энергии ' +
+                  'пропорционален количеству выполняемых рецептов).'},
+              {p: ''},
+              {p: 'Машина позволяет тратить очки параллелей (PP). Очки ограничены Parallel Receiver: 4, 16, 64, 256.'},
+              {p: ''},
+              {p: 'После установки вышки связи, необходимо настроить частоту, с которой будет работать вышка, компьютер и машины. Настраивается через ноутбук, кликом по контролеру'},
+              {p: ''},
+              {p: 'Чтобы передать PP в машину, необходимо установить в нее Parallel Receiver. Затем кликните на Parallel Receiver ноутбуком и на Parallel Transmitter на компьютере.' +
+                  'Если приемник/передатчик горит красным - ошибка подключения или нет подключения, если горит желтым - успешное подключение.'},
+            ],
+            img: []
+          }, {
+            title: 'Важно!',
+            desc: [
+              {
+                p: 'Не игнорирует требование "Needs Cleanroom".'
+              },
+            ],
+            img: []
+          }, {
+            title: 'Структура',
+            desc: [
+              {
+                p: 'Механизм имеет геометрические размеры 5х3х5 длина, ширина, высота соответственно. ' +
+                  'Обязательными блоками помимо контроллера являются Maintenance Hatch, Energy Hatch. ' +
+                  'Для постройки необходимо (без учета хэтчей) 36 Engraver Casing, 10 I-glass (1 белое, 3 красных, 3 зеленых, 3 синих).' +
+                  ' Цвета стекла фиксированы и не могут быть изменены.'
+              },
+            ],
+            img: []
+          }
+        ]
+      },
+      {
         id: 13,
+        tier: 'iv',
         name: "Multi Assembling Machine",
         img: "https://gtimpact.space/media/gregtech/ParAssembler.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 14,
-        name: "Multi Centrifuge",
-        img: "https://gtimpact.space/media/gregtech/ParCentrifuge.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 15,
-        name: "Multi Electrolyzer",
-        img: "https://gtimpact.space/media/gregtech/ParElectr.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 16,
-        name: "Multi Wire Factory",
-        img: "https://gtimpact.space/media/gregtech/ParWire.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 17,
-        name: "Multi Supply Production",
-        img: "https://gtimpact.space/media/gregtech/ParSupply.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 18,
-        name: "Multi Utility Machine",
-        img: "https://gtimpact.space/media/gregtech/ParUtill.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 19,
-        name: "Multi Brewmenter",
-        img: "https://gtimpact.space/media/gregtech/ParBrew.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 20,
-        name: "Multi Arc Furnace",
-        img: "https://gtimpact.space/media/gregtech/ParArc.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 21,
-        name: "Multi Cutting Machine",
-        img: "https://gtimpact.space/media/gregtech/ParCutt.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 22,
-        name: "Multi Extradification",
-        img: "https://gtimpact.space/media/gregtech/ParExtraDi.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 23,
-        name: "Multi Maceration Stack",
-        img: "https://gtimpact.space/media/gregtech/ParMacer.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 24,
-        name: "Multi Mixing Machine",
-        img: "https://gtimpact.space/media/gregtech/ParMix.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 25,
-        name: "Multi Siftaration Unit",
-        img: "https://gtimpact.space/media/gregtech/ParSift.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 26,
-        name: "Freezer Solidifier",
-        img: "https://gtimpact.space/media/gregtech/ParFrezSolid.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 27,
-        name: "Blast Smelter",
-        img: "https://gtimpact.space/media/gregtech/BlastSmelter.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 28,
-        name: "Advanced Vacuum Freezer",
-        img: "https://gtimpact.space/media/gregtech/ParFreez.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 29,
-        name: "Rail Assembler",
-        img: "https://gtimpact.space/media/gregtech/RailAssembler.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 30,
-        name: "",
-        img: "https://gtimpact.space/media/gregtech/.png",
-        desc: '',
-        general: '',
-        other: []
-      },{
-        id: 31,
-        name: "",
-        img: "https://gtimpact.space/media/gregtech/.png",
-        desc: '',
-        general: '',
-        other: []
-      },
-/*
-         {
-            id: 0,
-            name: "",
-            img: "https://gtimpact.space/media/gregtech/",
-            desc: '',
-            general: '',
-            other: [
-              {
-                title: '',
-                desc: [
-                  {p: ''},
-                ],
-                img: []
-              },
-            ]
+        desc: 'Машина является многоблочным аналогом Assembler, Circuit Assembler, Component Assembler. Имеет параллельность.',
+        general: 'Имеет три режима работы. Режимы переключаются отврёткой. Может работать со множеством схем, ' +
+          'находящимися в разных басах в режиме "Buses separated on" (переключается отвёрткой при зажатой клавише Shift).' +
+          ' Рецепт выполняется с той схемой, которая находится в том же басе, что и материал',
+        other: [{
+          title: 'Параллелизм',
+          desc: [
+            {p: '- Нужен Parallel Super Computer'},
+            {p: ''},
+            {p: '- Нужена Communication Tower'},
+          ],
+          img: []
+        }, {
+          title: '',
+          desc: [
+            {p: 'Машина имеет параллелизм. Параллелизм - это способность одновременно выполнять одно и то же действие в нескольких потоках.'},
+            {p: ''},
+            {p: 'Если рассматривать параллелизм в игре, то это выполнение одного типа рецепта несколько раз за один цикл (при этом расход энергии ' +
+                'пропорционален количеству выполняемых рецептов).'},
+            {p: ''},
+            {p: 'Машина позволяет тратить очки параллелей (PP). Очки ограничены Parallel Receiver: 4, 16, 64, 256.'},
+            {p: ''},
+            {p: 'После установки вышки связи, необходимо настроить частоту, с которой будет работать вышка, компьютер и машины. Настраивается через ноутбук, кликом по контролеру'},
+            {p: ''},
+            {p: 'Чтобы передать PP в машину, необходимо установить в нее Parallel Receiver. Затем кликните на Parallel Receiver ноутбуком и на Parallel Transmitter на компьютере.' +
+                'Если приемник/передатчик горит красным - ошибка подключения или нет подключения, если горит желтым - успешное подключение.'},
+          ],
+          img: []
+        }, {
+          title: 'Важно!',
+          desc: [
+            {p: 'Не игнорирует требование "Needs Cleanroom".'},
+          ],
+          img: []
+        }, {
+          title: 'Режим 1. Assembler',
+          desc: [
+            {p: 'Выполняет все рецепты одноблочного аналога.'},
+          ],
+          img: []
+        }, {
+          title: 'Режим 2. Circuit Assembler',
+          desc: [
+            {p: 'Выполняет все рецепты одноблочного аналога.'},
+          ],
+          img: []
+        }, {
+          title: 'Режим 3. Component Assembler',
+          desc: [
+            {p: 'Выполняет все рецепты одноблочного аналога.'},
+          ],
+          img: []
+        },{
+          title: 'Структура',
+          desc: [
+            {p: 'Механизм имеет геометрические размеры 3х9х3 длина, ширина, высота соответственно. ' +
+                'Обязательными блоками помимо контроллера являются Maintenance Hatch, Energy Hatch. ' +
+                'Таким образом без учёта инпут, аутпут бассов, Parallel Receiver для постройки необходимо' +
+                ' 59 Assembler Casing, 9 I-glass любого цвета.'},
+          ],
+          img: []
+        },]
+      }, //{
+      //   id: 14,
+      //   tier: 'iv',
+      //   name: "Multi Centrifuge",
+      //   img: "https://gtimpact.space/media/gregtech/ParCentrifuge.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 15,
+      //   tier: 'iv',
+      //   name: "Multi Electrolyzer",
+      //   img: "https://gtimpact.space/media/gregtech/ParElectr.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 16,
+      //   tier: 'iv',
+      //   name: "Multi Wire Factory",
+      //   img: "https://gtimpact.space/media/gregtech/ParWire.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 17,
+      //   tier: 'iv',
+      //   name: "Multi Supply Production",
+      //   img: "https://gtimpact.space/media/gregtech/ParSupply.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 18,
+      //   tier: 'iv',
+      //   name: "Multi Utility Machine",
+      //   img: "https://gtimpact.space/media/gregtech/ParUtill.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 19,
+      //   tier: 'iv',
+      //   name: "Multi Brewmenter",
+      //   img: "https://gtimpact.space/media/gregtech/ParBrew.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 20,
+      //   tier: 'iv',
+      //   name: "Multi Arc Furnace",
+      //   img: "https://gtimpact.space/media/gregtech/ParArc.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 21,
+      //   tier: 'iv',
+      //   name: "Multi Cutting Machine",
+      //   img: "https://gtimpact.space/media/gregtech/ParCutt.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 22,
+      //   tier: 'iv',
+      //   name: "Multi Extradification",
+      //   img: "https://gtimpact.space/media/gregtech/ParExtraDi.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 23,
+      //   tier: 'iv',
+      //   name: "Multi Maceration Stack",
+      //   img: "https://gtimpact.space/media/gregtech/ParMacer.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 24,
+      //   tier: 'iv',
+      //   name: "Multi Mixing Machine",
+      //   img: "https://gtimpact.space/media/gregtech/ParMix.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 25,
+      //   tier: 'iv',
+      //   name: "Multi Siftaration Unit",
+      //   img: "https://gtimpact.space/media/gregtech/ParSift.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 26,
+      //   tier: 'ev',
+      //   name: "Freezer Solidifier",
+      //   img: "https://gtimpact.space/media/gregtech/ParFrezSolid.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 27,
+      //   tier: 'ev',
+      //   name: "Blast Smelter",
+      //   img: "https://gtimpact.space/media/gregtech/BlastSmelter.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 28,
+      //   tier: 'zpm',
+      //   name: "Advanced Vacuum Freezer",
+      //   img: "https://gtimpact.space/media/gregtech/ParFreez.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 29,
+      //   tier: 'lv',
+      //   name: "Rail Assembler",
+      //   img: "https://gtimpact.space/media/gregtech/RailAssembler.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 30,
+      //   tier: 'zpm',
+      //   name: "Electromagnetic Induction Furnace",
+      //   img: "https://cdn.discordapp.com/attachments/916393114166525974/916393262401601536/EIF.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 31,
+      //   tier: 'iv',
+      //   name: "Multi Chemical Reactor",
+      //   img: "https://cdn.discordapp.com/attachments/916393114166525974/916408486676537394/MLCR.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 32,
+      //   tier: 'iv',
+      //   name: "Multi Distillation Tower",
+      //   img: "https://cdn.discordapp.com/attachments/916393114166525974/916408486332608592/MDT.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 33,
+      //   tier: 'uhv',
+      //   name: "Antimatter Reactor",
+      //   img: "https://cdn.discordapp.com/attachments/916393114166525974/916636161731100732/ANTIMATT.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 33,
+      //   tier: 'uv',
+      //   name: "Tesseract",
+      //   img: "https://media.discordapp.net/attachments/916393114166525974/916636161945002025/TESSERACT.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 34,
+      //   tier: 'ev',
+      //   name: "Parametric Diffuser",
+      //   img: "https://cdn.discordapp.com/attachments/916393114166525974/916670175946870784/MATRIXDIFFUSER.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 35,
+      //   tier: 'ev',
+      //   name: "Particles Stabilizer",
+      //   img: "https://cdn.discordapp.com/attachments/916393114166525974/916670176190169138/MATRIXSTABILIZER.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 36,
+      //   tier: 'ev',
+      //   name: "Particles Containment",
+      //   img: "https://cdn.discordapp.com/attachments/916393114166525974/916670175670054982/MATRIXCONTAINER.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // }, {
+      //   id: 37,
+      //   tier: 'ev',
+      //   name: "ME System Provider",
+      //   img: "https://cdn.discordapp.com/attachments/916393114166525974/916672070048428102/MESP.png",
+      //   desc: '',
+      //   general: '',
+      //   other: []
+      // },
+    ]
+  }, {
+    id: 1,
+    mod: 'Tectech',
+    pages: [
+      {
+        id: 0,
+        tier: 'zpm',
+        name: "Research Station",
+        img: "https://cdn.discordapp.com/attachments/916393114166525974/916638729341374504/RESEARCHSTATION.png",
+        desc: 'Механизм нужен для изучения рецептов высокоуровневых предметов (как правило, UHV+ тира). Может работать с многоамперными Energy Hatch.',
+        general: 'Флешку (Data Stick) необходимо положить в контроллер исследовательской станции. Предмет, который необходимо изучить для получения рецепта - в Object Holder.',
+        other: [
+          {
+            title: '',
+            desc: [
+              {p: 'Квантовый компьютер (Quantum Computer) должен обеспечить исследовательскую станцию необходимым количеством вычислений (computation) в секунду для изучения рецепта. Если вычислений меньше, чем надо, исследование не запустится, если больше - выполнится быстрее. Уровень Energy Hatch на быстроту исследования не влияет.'},
+              {p: ''},
+              {p: 'Исследовательская станция связывается с квантовым компьютером с помощью оптоволокна (Optical Fiber Cable). В станции кабель подключается к приемнику данных (Optical Slave Connector), в компьютере - к передатчику данных (Optical Master Connector). 1 передатчик может быть соединен только с 1 приемником. Если нужно подключить к станции несколько квантовых компьютеров, их можно подключить последовательно, устанавливая в них приемники.'},
+              {p: ''},
+              {p: 'Для работы передатчик, приемник и связывающий их кабель должны быть покрашены в один цвет. Покрашенные в разные цвета оптоволоконные кабеля не соединяются.'},
+            ],
+            img: []
+          },{
+            title: 'Важно!',
+            desc: [
+              {p: 'Запрещен демонтаж структуры в рабочем состоянии во избежание взрыва!'},
+            ],
+            img: []
           },
-*/
+        ]
+      }, {
+        id: 1,
+        tier: 'zpm',
+        name: "Quantum Computer",
+        img: "https://cdn.discordapp.com/attachments/916393114166525974/916660851237322782/QCOMPUTER.png",
+        desc: 'Механизм нужен для обеспечения исследовательской станции (Research station) вычислениями (computation). Может работать с многоамперными Energy Hatch.',
+        general: 'Квантовый компьютер связывается с исследовательской станцией с помощью оптоволокна (Optical Fiber Cable). ' +
+          'В станции кабель подключается к приемнику данных (Optical Slave Connector), в компьютере - к передатчику данных (Optical Master Connector). ' +
+          '1 передатчик может быть соединен только с 1 приемником. Если нужно подключить к станции несколько квантовых компьютеров, их можно подключить последовательно, устанавливая в них приемники.',
+        other: [{
+          title: '',
+          desc: [
+            {p: 'Микросхемы, обеспечивающие вычисления, и теплоотводы (Vent), охлаждающие их, помещаются в компьютерные стойки (Computer Rack). ' +
+                'В зависимости от количества необходимых стоек, можно менять длину компьютера от 4 до 16 блоков. Разные микросхемы обеспечивают разное количество вычислений в секунду.'},
+            {p: ''},
+            {p: 'При работе компьютера стойки с микросхемами нагреваются. Если выбрана несбалансированная схемы охлаждения, то при нагреве стойки ' +
+                'до температуры cвыше 60% от критической, микросхемы в ней сгорят и она начнет остывать.'},
+          ],
+          img: []
+        },{
+          title: 'Потребление энергии',
+          desc: [
+            {p: 'Квантовый компьютер потребляет 524288 * (1+n) eU/t,'},
+            {p: 'n - количество стоек c микросхемами (пустые стойки энергию не потребляют)'},
+          ],
+          img: []
+        },{
+          title: 'Особенности конструкции',
+          desc: [
+            {p: 'Блоки перед вентиляторами компьютера (Computer Heat Vent) должны быть пустыми.'},
+          ],
+          img: []
+        },{
+          title: 'Важно!',
+          desc: [
+            {p: 'Запрещен демонтаж структуры в рабочем состоянии во избежание взрыва!'},
+          ],
+          img: []
+        },]
+      },{
+        id: 2,
+        tier: 'zpm',
+        name: "Data Bank",
+        img: "https://cdn.discordapp.com/attachments/916393114166525974/916693113970499634/DB.png",
+        desc: 'Механизм позволяет хранить большое количество флешек (Data Stick) с рецептами  сборочных линий (Assembly Line) и поставлять в них эти рецепты. Может работать с многоамперными Energy Hatch.',
+        general: 'Флешки хранятся в Data Access Hatch (обычный, Advanced, Automatable). ',
+        other: [{
+          title: '',
+          desc: [
+            {p: 'Банк данных связывается со сборочными линиями с помощью оптоволокна (Optical Fibre Cable). В банке данных кабель ' +
+                'подключается к передатчику данных (Data Bank Master Connector), в сборочной линии - к приемнику данных (Assembly Line Slave Connector). 1 передатчик может быть соединен только с 1 приемником.'},
+            {p: ''},
+            {p: 'Для работы передатчик, приемник и связывающий их кабель должны быть покрашены в один цвет. Покрашенные в разные цвета оптоволоконные кабеля не соединяются.'},
+            {p: ''},
+            {p: 'Банк данных тратит на работу 2048*(a * b + 1) eU/t,'},
+            {p: 'a>=1 - количество отсеков с флешками, '},
+            {p: 'b>=1 - количество передатчиков.'},
+          ],
+          img: []
+        },{
+          title: 'Важно!',
+          desc: [
+            {p: 'Запрещен демонтаж структуры в рабочем состоянии во избежание взрыва!'},
+          ],
+          img: []
+        },]
+      },
     ]
   }
 ]
 
+/*
+{
+  id: 0,
+  name: "",
+  img: "",
+  desc: '',
+  general: '',
+  other: [
+    {
+      title: '',
+      desc: [
+        {p: ''},
+      ],
+      img: []
+    },
+  ]
+},
+*/
+
+const tiers = [
+  {label: 'ALL', name: 'all'},
+  {label: 'STEAM AGE', name: 'steam'},
+  {label: 'ULV', name: 'ulv'},
+  {label: 'LV', name: 'lv'},
+  {label: 'MV', name: 'mv'},
+  {label: 'HV', name: 'hv'},
+  {label: 'EV', name: 'ev'},
+  {label: 'IV', name: 'iv'},
+  {label: 'LUV', name: 'luv'},
+  {label: 'ZPM', name: 'zpm'},
+  {label: 'UV', name: 'uv'},
+  {label: 'UHV', name: 'uhv'},
+]
+
 export default {
-  mods
+  mods, tiers
 }
