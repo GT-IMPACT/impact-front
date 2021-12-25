@@ -3,6 +3,9 @@
     <q-card-section class="text-h4" style="text-transform: uppercase; color: white; font-weight: 900; text-align: center">
       {{ $t('wiki_modpack') }}
     </q-card-section>
+    <q-card-section style="text-transform: uppercase; color: white; text-align: center">
+      {{ $t('wiki_credits') }}
+    </q-card-section>
     <q-card-section class="items-center q-pa-md" style="text-align: center">
       <q-card flat square style="padding-top: 60px; padding-bottom: 60px;">
         <q-splitter v-model="splitterModel" disable>
@@ -35,7 +38,7 @@
                         <q-card class="row justify-center" flat>
                           <template v-for="page in mod.pages" :key="page">
                             <div v-if="tier.name === page.tier" class="q-ma-xs" style="width: 250px">
-                              <q-item clickable @click="page.id <= 40 ? getNews(page, mod.id) : ''">
+                              <q-item clickable :disable="page.id > 34" @click="page.id <= 34 ? getNews(page, mod.id) : ''">
                                 <q-card class="q-pa-none q-ma-none bg-none " flat square style="width: 100%; height: 100%">
                                   <q-img :src="page.img" height="205px" width="205px" />
                                   <q-item-label lines="1" style="text-transform: uppercase">
@@ -45,7 +48,7 @@
                               </q-item>
                             </div>
                             <div v-else-if="tier.name === 'all'" class="q-ma-xs" style="width: 250px">
-                              <q-item clickable @click="page.id <= 40 ? getNews(page, mod.id) : ''">
+                              <q-item clickable :disable="page.id > 34" @click="page.id <= 34 ? getNews(page, mod.id) : ''">
                                 <q-card class="q-pa-none q-ma-none bg-none " flat square style="width: 100%; height: 100%">
                                   <q-img :src="page.img" height="205px" width="205px" />
                                   <q-item-label lines="1" style="text-transform: uppercase">
@@ -76,7 +79,7 @@
           <q-card-section class="items-center q-pb-none">
             <q-item class="text-h5 text-bold items-center q-py-none">{{ $t('wiki_desc') }}</q-item>
             <q-item class="items-center q-py-none" style="min-height: 20px">
-              {{ $t('wiki_decs_' + modID + "_" + id) }}
+              {{ $t('wiki_desc_' + modID + "_" + id) }}
             </q-item>
           </q-card-section>
 
