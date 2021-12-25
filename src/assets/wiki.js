@@ -89,7 +89,7 @@ const mods = [
         ]
       }, {
         id: 4,
-        tier: 'mv',
+        tier: 'ev',
         name: "ADVANCED PYROLYSE OVEN",
         img: "https://gtimpact.space/media/gregtech/AdvPyrolyse.png",
         desc: 'The principle of operation of a pyrolysis oven is based on the thermal decomposition of organic substances into pyrolysis gases and solid residues.',
@@ -122,7 +122,7 @@ const mods = [
         ]
       }, {
         id: 5,
-        tier: 'hv',
+        tier: 'mv',
         name: "ELECTRIC WATER DRILLING RIG",
         img: "https://gtimpact.space/media/gregtech/ElWater.png",
         desc: 'Designed for pumping water from bedrock using electricity.',
