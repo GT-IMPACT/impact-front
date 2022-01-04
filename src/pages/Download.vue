@@ -37,14 +37,14 @@
                         <q-item class="justify-center items-center" style="width: 450px">{{ $t('update_desc_' + update.id) }}</q-item>
                       </q-card-section>
                       <q-card-section class="q-py-none">
-                        <q-btn :href="update.linkClient" class="q-mx-sm" flat :label="$t('client')" no-caps style="border: 1px solid black; width: 100px" type="a" />
-                        <q-btn :href="update.linkServer" class="q-mx-sm" flat :label="$t('server')" no-caps style="border: 1px solid black; width: 100px" type="a" />
+                        <q-btn :href="update.linkClient" class="q-mx-sm" flat :label="$t('client')" no-caps style="border: 1px solid black; width: 100px" type="a" target="_blank"/>
+                        <q-btn :href="update.linkServer" class="q-mx-sm" flat :label="$t('server')" no-caps style="border: 1px solid black; width: 100px" type="a" target="_blank"/>
                       </q-card-section>
                       <q-card-section>
                         <q-item class="justify-center items-center q-py-none" style="font-size: 12px;">{{$t('download_server_cores')}}</q-item>
-                        <q-btn :href="'https://gtimpact.space/go/server_cores/THERMOS_IMPACT_EMPTY_SERVER.zip'" class="q-mx-sm" flat label="Thermos" no-caps size="md" type="a" />
-                        <q-btn :href="'https://gtimpact.space/go/server_cores/ULTRAMINE_ORIGINAL_IMPACT_EMPTY_SERVER.zip'" class="q-mx-sm" flat label="UltraMine" no-caps size="md" type="a" />
-                        <q-btn :href="'https://gtimpact.space/go/server_cores/ULTRAMINE_PATCHED_IMPACT_EMPTY_SERVER.zip'" class="q-mx-sm" flat label="UltraMine (IMPACT)" no-caps size="md" type="a" />
+                        <q-btn :href="'https://gtimpact.space/go/server_cores/THERMOS_IMPACT_EMPTY_SERVER.zip'" class="q-mx-sm" flat label="Thermos" no-caps size="md" type="a" target="_blank"/>
+                        <q-btn :href="'https://gtimpact.space/go/server_cores/ULTRAMINE_ORIGINAL_IMPACT_EMPTY_SERVER.zip'" class="q-mx-sm" flat label="UltraMine" no-caps size="md" type="a" target="_blank"/>
+                        <q-btn :href="'https://gtimpact.space/go/server_cores/ULTRAMINE_PATCHED_IMPACT_EMPTY_SERVER.zip'" class="q-mx-sm" flat label="UltraMine (IMPACT)" no-caps size="md" type="a" target="_blank"/>
                       </q-card-section>
                     </q-card>
                   </q-card>
