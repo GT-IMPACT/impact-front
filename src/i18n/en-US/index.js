@@ -805,6 +805,21 @@ export default {
   wiki_other_title_0_43_3: "Important!",
   wiki_other_desc_0_43_3_0: "Only one miner can be in one chunk!",
 
+  wiki_desc_0_44: "Aerostate, balloon, etc. This multiblock is a platform to move in the game.",
+  wiki_general_0_44: "You will need gas to move, most commonly Natural Gas or Refinery Gas.",
+  wiki_other_title_0_44_0: " ",
+  wiki_other_desc_0_44_0_0: "To register a platform, you will need the Aerostate item.",
+  wiki_other_desc_0_44_0_1: "",
+  wiki_other_desc_0_44_0_2: "You must open the platform gui with Shift and enter the platform name.",
+  wiki_other_desc_0_44_0_3: "Then you can open the platform gui without the Shift.",
+  wiki_other_desc_0_44_0_4: "",
+  wiki_other_desc_0_44_0_5: "The platform interface is a list of platforms within a radius of 512 blocks.",
+  wiki_other_desc_0_44_0_6: "",
+  wiki_other_desc_0_44_0_7: "You can move to any of them if you have enough gas.",
+  wiki_other_title_0_44_1: "Important!",
+  wiki_other_desc_0_44_1_0: "The platform should be loaded with a Chunk Loader!",
+
+
 
   wiki_desc_1_0: 'The mechanism is needed to learn the recipes of high-level items (usually UHV+ dash). Can work with multi-amp Energy Hatch.',
   wiki_general_1_0: 'The Data Stick must be placed in the controller of the research station. The item you need to study to get the recipe - in the Object Holder.',
