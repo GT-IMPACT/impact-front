@@ -3,6 +3,8 @@
 
 export default {
 
+  notify_wiki: 'If the text does not load, restart the page',
+
   home: 'Home',
   about: 'About modpack',
   download: 'Download',
@@ -44,11 +46,14 @@ export default {
   update_date_1015: '07.27.21',
   update_title_1015: 'More bugs…',
   update_desc_1015: 'Many bug fixed, new NEI version by GTNH-team and modpack redesign.',
+
   update_date_1016: '08.02.21',
   update_title_1016: 'Oh, bugs, again..',
   update_desc_1016: 'Many bug fixed, GT-P2P, main menu and more new recipes.',
 
-
+  update_date_1017: "01.05.22",
+  update_title_1017: "It happened!",
+  update_desc_1017: "New Ore Gen, Matrix System and more fixes.. and bugs :)",
 
   wiki_modpack: 'Wiki modpack',
   wiki_desc: 'Description',

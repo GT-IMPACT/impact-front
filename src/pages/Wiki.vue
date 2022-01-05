@@ -1,10 +1,10 @@
 <template>
   <q-card class="justify-evenly q-ma-lg bg-none" flat square style="padding: 0 200px;">
     <q-card-section class="text-h4" style="text-transform: uppercase; color: white; font-weight: 900; text-align: center">
-      {{ $t('wiki_modpack') }}
+      {{ lang('wiki_modpack') }}
     </q-card-section>
     <q-card-section style="text-transform: uppercase; color: white; text-align: center">
-      {{ $t('wiki_credits') }}
+      {{ lang('wiki_credits') }}
     </q-card-section>
     <q-card-section class="items-center q-pa-md" style="text-align: center">
       <q-card flat square style="padding-top: 60px; padding-bottom: 60px;">
@@ -108,26 +108,26 @@
           <q-img :src="imgPage" height="300px" width="300px" />
 
           <q-card-section class="items-center q-pb-none">
-            <q-item class="text-h5 text-bold items-center q-py-none">{{ $t('wiki_desc') }}</q-item>
+            <q-item class="text-h5 text-bold items-center q-py-none">{{ lang('wiki_desc') }}</q-item>
             <q-item class="items-center q-py-none" style="min-height: 20px">
-              {{ $t('wiki_desc_' + modID + "_" + id) }}
+              {{ lang('wiki_desc_' + modID + "_" + id) }}
             </q-item>
           </q-card-section>
 
           <q-card-section class="items-center q-pb-none">
-            <q-item class="text-h5 items-center text-bold q-py-none">{{ $t('wiki_general') }}</q-item>
+            <q-item class="text-h5 items-center text-bold q-py-none">{{ lang('wiki_general') }}</q-item>
             <q-item class="items-center q-py-none" style="min-height: 20px">
-              {{ $t('wiki_general_' + modID + "_" + id) }}
+              {{ lang('wiki_general_' + modID + "_" + id) }}
             </q-item>
           </q-card-section>
 
           <q-card-section v-for="(other, countOther) in otherPage" :key="other" class="items-center q-pb-none">
             <q-item v-if="other.title !== ''" class="text-h6 text-bold items-center q-py-none">
-              {{ $t('wiki_other_title_' + modID + "_" + id + '_' + countOther) }}
+              {{ lang('wiki_other_title_' + modID + "_" + id + '_' + countOther) }}
             </q-item>
             <template v-for="(desc, countDesc) in other.desc" :key="desc">
               <q-item class="items-center q-py-none" style="min-height: 20px">
-                {{ $t('wiki_other_desc_' + modID + "_" + id + '_' + countOther + '_' + countDesc) }}
+                {{ lang('wiki_other_desc_' + modID + "_" + id + '_' + countOther + '_' + countDesc) }}
               </q-item>
             </template>
             <template v-for="img in other.img" :key="img">
@@ -151,12 +151,12 @@
           <q-card-section v-for="(ctg, c1) in machinesCategory" :key="ctg" class="items-center q-pb-none">
             <q-item v-if="ctg.title !== ''" class="text-h6 text-bold items-center q-py-none">
               <template v-if="debug === 1">{{ ctg.title }}</template>
-              {{ $t('wiki_machines_title_' + modID + "_" + id + '_' + c1) }}
+              {{ lang('wiki_machines_title_' + modID + "_" + id + '_' + c1) }}
             </q-item>
             <template v-for="(desc, c2) in ctg.body" :key="desc">
               <q-item class="items-center q-py-none" style="min-height: 20px">
                 <template v-if="debug === 1">{{ desc }}</template>
-                {{ $t('wiki_machines_body_' + modID + "_" + id + '_' + c1 + '_' + c2) }}
+                {{ lang('wiki_machines_body_' + modID + "_" + id + '_' + c1 + '_' + c2) }}
               </q-item>
             </template>
             <template v-for="img in ctg.imgBody" :key="img">
@@ -178,6 +178,8 @@
 <script>
 import {onMounted, ref, watch} from 'vue'
 import wiki from 'assets/wiki.js'
+import {useQuasar} from "quasar";
+import {TranslateResult, useI18n} from "vue-i18n";
 
 export default {
   name: "Download",
@@ -207,6 +209,21 @@ export default {
     let tab = ref("impact-core");
     const blockID = ref(200);
 
+    const $q = useQuasar()
+    const {t:lang} = useI18n()
+
+    const notify = () => {
+      console.log(lang('notify_wiki'))
+        $q.notify({message: lang('notify_wiki'), color: 'purple', position: 'top'});
+      localStorage.setItem("notifyBool", "true");
+    }
+
+    onMounted(() => {
+     if (localStorage.getItem("notifyBool") != "true") {
+       notify();
+     }
+    });
+
     const getNews = (page, mod) => {
       console.log(mod)
       dialog.value = true;
@@ -235,7 +252,8 @@ export default {
       splitterModel: ref(15),
       wiki, dialog, titlePage, generalPage, descPage, imgPage, otherPage, id, modID, blockID,
       dialogMachines, machinesCategory, machinesID, machinesImg, machinesTitle, debug,
-      getNews, getMachines,
+      getNews, getMachines, lang
+
     }
   }
 }

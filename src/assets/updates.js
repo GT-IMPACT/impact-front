@@ -15,8 +15,228 @@ const updateList = [
   //   ]
   // },
   {
-    label: '1.0.1.6',
+    label: '1.0.1.7',
     name: 'last',
+    id: '1017',
+    date: '05 Jan 2022',
+    title: 'It happened!',
+    desc: 'New Ore Gen, Matrix System and more fixes.. and bugs :)',
+    img: 'https://cdn.discordapp.com/attachments/916393114166525974/928222678068895744/1017.png',
+    linkServer: 'https://gtimpact.space/go/releases/1.0.1.7/IMPACT-1.0.1.7-SERVER.zip',
+    linkClient: 'https://gtimpact.space/go/releases/1.0.1.7/IMPACT-1.0.1.7-CLIENT.zip',
+    changelog: [
+      {
+        label: 'IMPACT', children: [
+          {label: 'add support NEE'},
+          {label: 'add ID hatches'},
+          {label: 'add more buses in parallel electrolyzer'},
+          {label: 'add analog tinker Lumber Axe and Forge Hammer to GT API Materials'},
+          {label: 'fix name hatches'},
+          {label: 'fix nuclear reactor'},
+          {label: 'add Save Manager world data'},
+          {label: 'rework check recipe multis'},
+          {label: 'add Matrix System'},
+          {label: 'rework lang'},
+          {label: 'convert SolarsPanel IC2 to Impact SolarsPanel'},
+          {label: 'fix x256 parallel'},
+          {label: 'add more hatches El.WaterDrill'},
+          {label: 'add more hatches AVF'},
+          {label: 'add config for Placed Items'},
+          {label: 'add Volumetric Configurator'},
+          {label: 'add El.WaterDrill salt water in ocean'},
+          {label: 'add Aerostate'},
+          {label: 'add Long Distance Pipeline Energy'},
+          {label: 'install impacAPI'},
+          {label: 'add Lasers Hatches'},
+          {label: 'add parallel for Heavy Metal Cyclone'},
+          {label: 'add parallel for FlotationUnit'},
+          {label: 'add New Ore Gen and miners'},
+          {label: 'add Advanced Fluid Detector and Advanced Energy Detector'},
+          {label: 'add holo structure details colored dots'},
+          {label: 'serialized optimized and save tick manager'},
+          {label: 'add Mixins'},
+          {label: 'add Saw Mill in Multis Cutting Machine'},
+          {label: 'add ingame Recipe Editor (for dev)'},
+          {label: 'add Multis cashed recipes for optimization'},
+          {label: 'fix tooltips impacts meta tools'},
+          {label: 'remove TecTech API'},
+          {label: 'remove unused items'},
+          {label: 'fix parallel system connection'},
+          {label: 'remove unused textures'},
+          {label: 'fix space elevator'},
+          {label: 'fix crash cofh OreDict loop register [mixins] '},
+          {label: 'add Laser Mask Baubles slots'},
+          {label: 'add The Mill'},
+          {label: 'add Advanced Cracking Unit'},
+          {label: 'add Waila GT5 plugin'},
+          {label: 'add new singe-blocks Ore Prospectors'},
+          {label: 'add Not Enought Calculator (use command: /impact nec)'},
+          {label: 'add Impact Panel (use command: /impact panel) for dev'},
+          {label: 'add Drying Rack'},
+          {label: 'add GT colors in Waila'},
+        ]
+      }, {
+        label: 'GregTech', children: [
+          {label: 'fix recipe of rounds'},
+          {label: 'add ID for hatches'},
+          {label: 'remove IC2 hammer in recipes'},
+          {label: 'small buff of Bacterial Sludge recipe'},
+          {label: 'fix strange recipe of RedAlloy'},
+          {label: 'add slot in Output Hatch for lock fluid'},
+          {label: 'add integration Spray colored with AE2 Cables'},
+          {label: 'remove some recipes for HardcoreEnderExpansion (unused mod)'},
+          {label: 'add Integrated circuit to DistilledWater recipes'},
+          {label: 'change colores of materials'},
+          {label: 'fix transformer recipes'},
+          {label: 'change recipe of Fiber-Reinforced Circuit Board'},
+          {label: 'install impactAPI'},
+          {label: 'remove TecTech integration'},
+          {label: 'add new MultiAmpers hatches'},
+          {label: 'disable OreGen GT5'},
+          {label: 'add drag&drop nei support locked fluid Output Hatch'},
+          {label: 'add cashed recipes for optimization multiblocks'},
+          {label: 'fix Air Filter'},
+          {label: 'fix machine block update'},
+          {label: 'stop spam lag console'},
+          {label: 'remove seismic prospector'},
+          {label: 'fix autogen Flotation Unit recipes'},
+          {label: 'make OverClock multiblocks 2/2 (LCR, Multi Centrifuge, Multi Electolyzer)'},
+          {label: 'change amount of Biomass in fermenting recipe'},
+          {label: 'more realistic recycling'},
+          {label: 'visible NEI crushed ores'},
+          {label: 'remove recipe old miners'},
+          {label: 'fix recipe of Multi Furnace'},
+          {label: 'remove old recipe in Tiny WormHole'},
+          {label: 'remove UU-Matter from recipes'},
+        ]
+      }, {
+        label: 'TecTech', children: [
+          {label: 'remove Laser Tube recipe'},
+          {label: 'remove Lasers recipes'},
+          {label: 'remove UU-Matter from recipes'},
+          {label: 'remove and transfer Data Reader to IMPACT'},
+          {label: 'remove and transfer MultiAmp hatches to GregTech'},
+        ]
+      }, {
+        label: 'AE2', children: [
+          {label: 'add view cells to wireless terminal'},
+          {label: 'fixed bug where remote loaded EU p2p required player visit to start working'},
+          {label: 'fix item comparison for items with NBT'},
+          {label: 'double components button in Pattern terminal'},
+          {label: 'mark interface tile chunk for saving, after all inventory manipulations'},
+          {label: 'AE2 fluid P2P voids liquids with EIO fluid conduits'},
+          {label: 'add Covered Dense Cables'},
+          {label: 'tweaked Covered Cable Textures'},
+          {label: 'null check for server startup case'},
+          {label: 'add some delay before security turns on after loading grid'},
+          {label: 'pattern doubling also uses free slots. Holding shift doubles to maximum'},
+          {label: 'add GT integration check, to avoid crash with other GT versions'},
+          {label: 'move Crafting Status button to other buttons of terminal UI'},
+          {label: 'make Crafting Status button mode optional. Config options: Button - like rest of interface buttons TILE - old AE2 style in top right'},
+          {label: 'add an icon for crafting status.'},
+          {label: 'make fluid p2p bidirectional'},
+          {label: 'drop to search string'},
+          {label: 'fluid p2p should expect null stack input '},
+          {label: 'refactor pattern doubling'},
+          {label: 'add API for CPU accelerators'},
+        ]
+      }, {
+        label: 'neiaddons', children: [
+          {label: 'fix AE2 pattern click'},
+        ]
+      }, {
+        label: 'NotEnoughEnergistics (NEE)', children: [
+          {label: 'add AE2 Pattern Terminals Support'},
+        ]
+      }, {
+        label: 'NotEnoughItems', children: [
+          {label: 'update GTNH Version'},
+        ]
+      }, {
+        label: 'ImpactAPI', children: [
+          {label: 'initial IMPACT API'},
+        ]
+      }, {
+        label: 'WAILAPlugins', children: [
+          {label: 'remove GT5 plugin'},
+        ]
+      }, {
+        label: 'DetravScanner (Scanner Mod)', children: [
+          {label: 'add new impact ores'},
+          {label: 'remove old GT5 ores'},
+        ]
+      }, {
+        label: 'ExtraCells2', children: [
+          {label: 'redesign Fluid Terminal'},
+          {label: 'fix random changes fluids in Fluid Interface'},
+        ]
+      }, {
+        label: 'GalaxySpace', children: [
+          {label: 'enable IO planet'},
+        ]
+      }, {
+        label: 'Tinker Construct and Addons', children: [
+          {label: 'removed mods'},
+        ]
+      }, {
+        label: 'GalacticGreg', children: [
+          {label: 'removed mod'},
+        ]
+      },{
+        label: 'AE2-P2P-GT', children: [
+          {label: 'transfer to AE2 and removed'},
+        ]
+      },{
+        label: 'IMPACT RECIPE MODULE', children: [
+          {label: 'fix recipe of Crystal Board'},
+          {label: 'add unboxing recipes for MystCrystal Capacitors'},
+          {label: 'fix recipe of Uranium 235 from IC2'},
+          {label: 'fix recipes of Rotor Blades (Carbon and Steel)'},
+          {label: 'add Zirconium Processing'},
+          {label: 'add Graphene Processing'},
+          {label: 'add recipe for EU Reader'},
+          {label: 'add recycling recipes for Tank Field Casings ,Energy, Dynamo & Muffler Hatches'},
+          {label: 'add recipe for Electric Wrench and GraviTool'},
+          {label: 'fix Aurora block recipe'},
+          {label: 'remove unusing items from ExtraCells'},
+          {label: 'speedup recipes of NaqAlloy and Osmiridium in BlastFurnace'},
+          {label: 'buff some recipes of RailCraft (all signals, all detectors, all loaders/unloaders, Signal Lamp has alternative recipe)'},
+          {label: 'add disassembling recipes for new Casings'},
+          {label: 'remove tools from Minecraft, GalaxySpace, RailCraft'},
+          {label: 'add recipes in Assembler for Casings (Grate MC, Assembly Line C, Processor MC, Pump MC, All Pipe C, All Firebox C, Filter MC, ...)'},
+          {label: 'fix some recipes from Ztones'},
+          {label: 'fix recipe of Rusty Ladder'},
+          {label: 'add new recipe for NAND Chip'},
+          {label: 'add recipes for LDPE'},
+          {label: 'add alternative recipes for CatWalks'},
+          {label: 'add recipes for Impact Lasers and MultiHatches'},
+          {label: 'change recipes of Stone Tie, Railbed, Rebar from RailCraft'},
+          {label: 'change recipe of Lead from Minecraft'},
+          {label: 'add recipe for Melon in Slicer'},
+          {label: 'add distil water in FluixDust recipe'},
+          {label: 'change recipes of Solid Oxide Generators'},
+          {label: 'add recycling recipes for casings in ArcFurnace'},
+          {label: 'remove Packager Input Bus recipe'},
+          {label: 'change recipes of Slabs from AE'},
+          {label: 'transfer recipes from 3DPrinter in ME Provider'},
+          {label: 'add recipes for Advanced Fluid Detector, Advanced Energy Detector'},
+          {label: 'remove recipes of ODPs'},
+          {label: 'add new recipe for Canvas from GalactiCraft'},
+          {label: 'add Tanned Leather in Drying Oven'},
+          {label: 'remove recipes of CropMatron and CropHarvester'},
+          {label: 'add new recipe for TinyWormHole'},
+          {label: 'remove UU-Matter from recipes'},
+          {label: 'remove TiCo recipes!!!'},
+          ]
+      },{
+        label: '', children: [
+          {label: ''},
+        ]
+      },
+    ]
+  }, {
+    label: '1.0.1.6',
+    name: '1016',
     id: '1016',
     date: '02 Aug 2021',
     title: 'Oh, bugs, again..',
