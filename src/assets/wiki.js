@@ -1948,7 +1948,7 @@ const machines = [
         tier: "ev",
         name: "PARAMETRIC DIFFUSER",
         img: "https://cdn.discordapp.com/attachments/916393114166525974/916670175946870784/MATRIXDIFFUSER.png",
-        desc: "В Input Bus рядом с контроллером необходимо положить любую совершенную (Exquisite) линзу.",
+        desc: "В Input Bus рядом с контроллером необходимо положить любую совершенную (Exquisite) линзу. Требуется низкая гравитация.",
         general: "Машина нужна для генерации пучка нестабильных матричных частиц.",
         other: [
           {
@@ -1981,7 +1981,7 @@ const machines = [
         tier: "ev",
         name: "MATRIX PARTICLES STABILIZER",
         img: "https://cdn.discordapp.com/attachments/916393114166525974/916670176190169138/MATRIXSTABILIZER.png",
-        desc: "Машина нужна для стабилизации пучка нестабильных матричных частиц.",
+        desc: "Машина нужна для стабилизации пучка нестабильных матричных частиц. Требуется низкая гравитация.",
         general: "Луч нестабильных частиц от Parametric Diffuser должен входить в I-Glass слева, луч стабильных частиц для Matrix Particles Containment выходит справа.",
         other: [
           {
@@ -2023,7 +2023,7 @@ const machines = [
         tier: "ev",
         name: "PARTICLES CONTAINMENT",
         img: "https://cdn.discordapp.com/attachments/916393114166525974/916670175670054982/MATRIXCONTAINER.png",
-        desc: "Машина заполняет стабильными матричными частицами специальные контейнеры.",
+        desc: "Машина заполняет стабильными матричными частицами специальные контейнеры. Требуется низкая гравитация.",
         general: "Луч стабильных частиц от Matrix Particles Containment должен входить в I-Glass слева.",
         other: [
           {

@@ -15,8 +15,55 @@ const updateList = [
   //   ]
   // },
   {
-    label: '1.0.1.7',
+    label: '1.0.1.8',
     name: 'last',
+    id: '1018',
+    date: '07 Jan 2022',
+    title: 'The Mill triggered',
+    desc: 'Fix recipes balance and wind mill, all right',
+    img: 'https://cdn.discordapp.com/attachments/916393114166525974/928907665436987394/1018.png',
+    linkServer: 'https://gtimpact.space/go/releases/1.0.1.8/IMPACT-1.0.1.8-SERVER.zip',
+    linkClient: 'https://gtimpact.space/go/releases/1.0.1.8/IMPACT-1.0.1.8-CLIENT.zip',
+    changelog: [
+      {
+        label: 'IMPACT', children: [
+          {label: 'fix The Mill'},
+          {label: 'fix Ore Probe Tool localized'},
+          {label: 'fix Head Drills durability'},
+          {label: 'fix more tooltips'},
+          {label: 'add more durability for Large Tools (Hammer and Lumber Axe)'},
+        ]
+      }, {
+        label: 'GregTech', children: [
+          {label: 'fix GT P2P trigger'},
+          {label: 'add function to Knife - shears'},
+        ]
+      }, {
+        label: 'AE2', children: [
+          {label: 'fix charge Energy Cells'},
+        ]
+      }, {
+        label: 'NotEnoughItems', children: [
+          {label: 'update GTNH Version'},
+        ]
+      }, {
+        label: 'ImpactAPI', children: [
+          {label: 'fix server crash'},
+        ]
+      },{
+        label: 'IMPACT RECIPE MODULE', children: [
+          {label: 'fix CoalChunk recipe'},
+          {label: 'add The Mill Rotor recipe'},
+        ]
+      },{
+        label: '', children: [
+          {label: ''},
+        ]
+      },
+    ]
+  },{
+    label: '1.0.1.7',
+    name: '1017',
     id: '1017',
     date: '05 Jan 2022',
     title: 'It happened!',
@@ -227,7 +274,7 @@ const updateList = [
           {label: 'add new recipe for TinyWormHole'},
           {label: 'remove UU-Matter from recipes'},
           {label: 'remove TiCo recipes!!!'},
-          ]
+        ]
       },{
         label: '', children: [
           {label: ''},

@@ -12,7 +12,7 @@ export default {
 
   //home page
   home_title_impact: 'Unique modpack based on gregtech',
-  update_progress: 'Update 1.0.1.7',
+  update_progress: 'Update 1.0.1.8',
 
 
   about_part1: 'Global industrial modpack for Minecraft 1.7.10, based on GregTech 5 and various mods deeply integrated with each other. ' +
@@ -54,6 +54,11 @@ export default {
   update_date_1017: "01.05.22",
   update_title_1017: "It happened!",
   update_desc_1017: "New Ore Gen, Matrix System and more fixes.. and bugs :)",
+
+  update_date_1018: "01.07.22",
+  update_title_1018: "The Mill triggered",
+  update_desc_1018: "Fixed recipes balance and wind mill, all right",
+
 
   wiki_modpack: 'Wiki modpack',
   wiki_desc: 'Description',
@@ -705,19 +710,19 @@ export default {
   wiki_other_desc_0_35_0_1: "",
   wiki_other_desc_0_35_0_2: "The beam must be directed to the I-glass on the left side of the Matrix Particles Stabilizer. The beam does not deal damage.",
   wiki_other_title_0_35_1: "Structure features",
-  wiki_other_desc_0_35_1_0: "The color of the I-Glass in the structure does not matter.",
+  wiki_other_desc_0_35_1_0: "The color of the I-Glass in the structure does not matter. Requires low gravity.",
 
   wiki_desc_0_36: "The unstable particle beam from the Parametric Diffuser should enter the I-Glass on the left, the stable particle beam for the Matrix Particles Containment comes out on the right.",
   wiki_general_0_36: "The machine is needed to stabilize the beam of unstable matrix particles.",
   wiki_other_title_0_36_0: "",
-  wiki_other_desc_0_36_0_0: "The distance to the Parametric Diffuser and Matrix Particles Containment should not exceed 30 blocks.",
+  wiki_other_desc_0_36_0_0: "The distance to the Parametric Diffuser and Matrix Particles Stabilizer should not exceed 30 blocks.",
   wiki_other_desc_0_36_0_1: "",
   wiki_other_desc_0_36_0_2: "Can accumulate up to 100 thousand stable particles. Produces 1 thousand particles per second.",
   wiki_other_desc_0_36_0_3: "",
   wiki_other_desc_0_36_0_4: "Beams and lightning do no damage.",
   wiki_other_desc_0_36_0_5: "Constant consumption of 1,920 EU/t electricity.",
   wiki_other_title_0_36_1: "Structure features",
-  wiki_other_desc_0_36_1_0: "The color of the I-Glass in the structure does not matter.",
+  wiki_other_desc_0_36_1_0: "The color of the I-Glass in the structure does not matter. Requires low gravity.",
 
   wiki_desc_0_37: "The stable particle beam from Matrix Particles Containment should enter the I-Glass on the left.",
   wiki_general_0_37: "The machine fills special containers with stable matrix particles.",
@@ -729,7 +734,7 @@ export default {
   wiki_other_desc_0_37_0_4: "Beams and lightning do no damage.",
   wiki_other_desc_0_37_0_5: "Constant consumption of 1,920 EU/t electricity.",
   wiki_other_title_0_37_1: "Structure features",
-  wiki_other_desc_0_37_1_0: "The color of the I-Glass in the structure does not matter.",
+  wiki_other_desc_0_37_1_0: "The color of the I-Glass in the structure does not matter. Requires low gravity.",
 
   wiki_desc_0_38: "By consuming matrix particles, performs recipes, which can be seen in the NEI.",
   wiki_general_0_38: "The machine produces ME components by consuming matrix particles and also accelerates the ME itself.",
@@ -745,7 +750,7 @@ export default {
   wiki_desc_0_39: "The mill performs the recipes that can be seen in the uni.",
   wiki_general_0_39: "The windmill is the very first multiblock in the game. You'll need it to crush your first resource pebbles. The windmill is large in size, which makes it a good option for first base",
   wiki_other_title_0_39_0: "Structure features",
-  wiki_other_desc_0_39_0_0: "The rotor appears by itself if the structure is build correctly",
+  wiki_other_desc_0_39_0_0: "The Mill Rotor must be placed on the controller on the round side (arrow texture). There must be air in the rotor area.",
 
   wiki_general_0_40: "Performs all the recipes of analog.",
   wiki_desc_0_40: "The machine is analog to Oil Cracking Unit with the possibility of using a parallel. Can work with multi-amp Energy Hatch.",
