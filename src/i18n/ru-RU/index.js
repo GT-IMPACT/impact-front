@@ -12,7 +12,7 @@ export default {
 
   //home page
   home_title_impact: "Уникальный модпак на основе gregtech ",
-  update_progress: "Обновление 1.0.1.7",
+  update_progress: "Обновление 1.0.1.8",
 
   about_part1: "Глобальный индустриальный модпак для Minecraft 1.7.10, основанный на GregTech 5 и различных модах, глубоко интегрированных друг с другом.  " +
     "В Minecraft никогда не было такой интеграции с модами.",
