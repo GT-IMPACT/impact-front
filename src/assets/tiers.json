@@ -1,0 +1,50 @@
+[
+  {
+    "label": "ALL",
+    "name": "all"
+  },
+  {
+    "label": "STEAM AGE",
+    "name": "steam"
+  },
+  {
+    "label": "ULV",
+    "name": "ulv"
+  },
+  {
+    "label": "LV",
+    "name": "lv"
+  },
+  {
+    "label": "MV",
+    "name": "mv"
+  },
+  {
+    "label": "HV",
+    "name": "hv"
+  },
+  {
+    "label": "EV",
+    "name": "ev"
+  },
+  {
+    "label": "IV",
+    "name": "iv"
+  },
+  {
+    "label": "LUV",
+    "name": "luv"
+  },
+  {
+    "label": "ZPM",
+    "name": "zpm"
+  },
+  {
+    "label": "UV",
+    "name": "uv"
+  },
+  {
+    "label": "UHV",
+    "name": "uhv"
+  }
+]

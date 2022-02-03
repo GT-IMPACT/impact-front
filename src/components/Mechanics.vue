@@ -1,0 +1,127 @@
+<template>
+  <q-dialog v-model="dialog" @hide="$emit(`goBack`)">
+    <q-card class="q-pa-lg" flat square style="width: 800px; max-width: 1200px">
+      <q-card-section class="q-pa-none" v-html="compiledMd" />
+    </q-card>
+  </q-dialog>
+</template>
+
+<script>
+import {onMounted, ref, watch} from "vue";
+import {useRoute} from "vue-router";
+import * as marked from "marked";
+import mechanics from "assets/mechanics.json";
+import {useI18n} from "vue-i18n";
+
+export default {
+  setup() {
+    const $route = useRoute();
+    const dialog = ref(false);
+    const target = ref(null);
+    const compiledMd = ref("");
+    const pathFiles = ref("");
+
+    const renderMd = async () => {
+      if (cache.has(target.value.article)) {
+        compiledMd.value = cache.get(target.value.article);
+      } else {
+        const preCache = marked.parse(await (await fetch( pathFiles.value + "/" + target.value.article)).text());
+        cache.set(target.value.article, preCache);
+        compiledMd.value = preCache;
+      }
+    };
+    const cache = new Map();
+
+    const {locale} = useI18n({useScope: 'global'})
+    const lang = (text) => {
+      locale.value = text
+    }
+
+    onMounted(() => {
+      locale.value = (localStorage.getItem("lang") === null) ? 'en-US' : localStorage.getItem("lang");
+      pathFiles.value =  locale.value !== 'ru-RU' ? 'en' : 'ru';
+      if ($route.hash) {
+        target.value = mechanics.find((v) => v.slug == $route.hash.substring(1));
+        renderMd();
+        dialog.value = true;
+      }
+    });
+
+    watch($route, (cur) => {
+      if (cur.hash) {
+        target.value = mechanics.find((v) => v.slug == cur.hash.substring(1));
+        renderMd();
+        dialog.value = true;
+      }
+    });
+
+    watch(locale, (val) => {
+      localStorage.setItem("lang", val)
+    });
+
+    return {
+      dialog, target, compiledMd,
+      locale, lang,
+    };
+  },
+};
+</script>
+<style>
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+img[alt=LOGO] {
+  width: 50%;
+  height: 50%;
+}
+
+img[alt=OTHER] {
+  width: 90%;
+  height: 90%;
+}
+
+
+h1 {
+  font-size: 6rem;
+  font-weight:700;
+  line-height: 6rem;
+  letter-spacing: -0.01562em;
+  margin: 0 0 5px 0;
+}
+h2 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  line-height: 3.75rem;
+  letter-spacing: -0.00833em;
+  margin: 0 0 5px 0;
+}
+h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.125rem;
+  letter-spacing: normal;
+  margin: 0 0 5px 0;
+}
+h4 {
+  font-size: 2.125rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  letter-spacing: 0.00735em;
+  margin: 0 0 5px 0;
+}
+h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: normal;
+  margin: 0 0 5px 0;
+}
+h6 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 0.0125em;
+  margin: 0 0 5px 0;
+}
+</style>

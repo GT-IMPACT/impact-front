@@ -1,28 +1,38 @@
-
 const routes = [
   {
     path: '/',
     component: () => import('layouts/MainLayout'),
     children: [
-      { path: '', component: () => import('pages/Index') }
+      {path: '', component: () => import('pages/Index')}
     ]
-  },  {
+  }, {
     path: '/about',
     component: () => import('layouts/MainLayout'),
     children: [
-      { path: '', component: () => import('pages/About') }
+      {path: '', component: () => import('pages/About')}
     ]
-  },  {
+  }, {
     path: '/download',
     component: () => import('layouts/MainLayout'),
     children: [
-      { path: '', component: () => import('pages/Download') }
+      {path: '', component: () => import('pages/Download')}
     ]
-  },  {
+  }, {
     path: '/wiki',
     component: () => import('layouts/MainLayout'),
     children: [
-      { path: '', component: () => import('pages/Wiki') }
+      {
+        path: '',
+        component: () => import('pages/Wiki'),
+      },
+      {
+        path: '/wiki/machines',
+        component: () => import('pages/wiki/Machines')
+      },
+      {
+        path: '/wiki/mechanics',
+        component: () => import('pages/wiki/Mechanics')
+      },
     ]
   },
 

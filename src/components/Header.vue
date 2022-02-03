@@ -1,7 +1,7 @@
 <template>
   <q-card class="bg-blur header-h row items-center justify-evenly q-mb-lg" flat square>
     <q-card-section class="q-py-none">
-      <q-item class="items-center justify-center" active-class="color: white" to='/' clickable>
+      <q-item active-class="color: white" class="items-center justify-center" clickable to='/'>
         <q-item-section class="text-bold text-h4 items-center">IMPACT</q-item-section>
         <q-item-section class="items-center" style="max-width: 80px; font-size: 12px;">GREGTECH EDITION</q-item-section>
 
@@ -9,10 +9,10 @@
     </q-card-section>
     <q-card-section class="q-py-none">
       <q-list class="row">
-        <q-item to='/' class="line-h items-center" clickable>{{ $t('home') }}</q-item>
-        <q-item to='/about' class="line-h items-center" clickable>{{ $t('about') }}</q-item>
-        <q-item to='/download' class="line-h items-center" clickable>{{ $t('download') }}</q-item>
-        <q-item to='/wiki' class="line-h items-center" clickable>{{ $t('wiki') }}</q-item>
+        <q-item class="line-h items-center" clickable to='/'>{{ $t('home') }}</q-item>
+        <q-item class="line-h items-center" clickable to='/about'>{{ $t('about') }}</q-item>
+        <q-item class="line-h items-center" clickable to='/download'>{{ $t('download') }}</q-item>
+        <q-item class="line-h items-center" clickable to='/wiki'>{{ $t('wiki') }}</q-item>
 
       </q-list>
     </q-card-section>
@@ -32,7 +32,8 @@ export default {
   setup() {
     const {locale} = useI18n({useScope: 'global'})
     const lang = (text) => {
-      locale.value = text
+      locale.value = text;
+      location.reload();
     }
 
     onMounted(() => {
@@ -40,7 +41,7 @@ export default {
     })
 
     watch(locale, (val) => {
-      localStorage.setItem("lang", val)
+      localStorage.setItem("lang", val);
     });
 
     return {

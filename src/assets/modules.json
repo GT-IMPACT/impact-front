@@ -1,0 +1,21 @@
+[
+  {
+    "id": 0,
+    "name": "machines",
+    "label": "wiki_machines_small",
+    "icon": "precision_manufacturing"
+  },
+  {
+    "id": 1,
+    "name": "mechanics",
+    "label": "wiki_mechanics_small",
+    "icon": "book"
+  },
+  {
+    "id": 1,
+    "name": "items",
+    "label": "wiki_items_small",
+    "icon": "construction",
+    "disable": true
+  }
+]

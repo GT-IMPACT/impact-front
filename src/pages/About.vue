@@ -4,7 +4,7 @@
       {{ $t('about') }}
     </q-card-section>
     <q-card-section class="items-center q-pa-md" style="text-align: center">
-      <q-card style="padding-top: 60px; padding-bottom: 60px" class="row q-pa-md justify-center items-center" flat square>
+      <q-card class="row q-pa-md justify-center items-center" flat square style="padding-top: 60px; padding-bottom: 60px">
         <q-card class="block-about-text q-px-md" flat square style="text-align: right">
           <span class="text-justify">{{ $t('about_part1') }}</span>
         </q-card>
@@ -40,29 +40,22 @@
             <span>{{ $t('donate') }}</span>
           </q-card>
           <q-card class="q-mt-sm">
-            <q-btn class="q-mx-sm" flat href="https://www.patreon.com/gtimpact" no-caps style="border: 1px solid black; width: 100px" target="_blank" type="a">
+            <q-btn class="q-mx-sm" flat href="https://www.patreon.com/gtimpact" no-caps stretch style="border: 1px solid black; width: 100px" target="_blank" type="a">
               Patreon
             </q-btn>
-            <q-btn class="q-mx-sm" flat href="https://boosty.to/gt-impact" no-caps style="border: 1px solid black; width: 100px" target="_blank" type="a">
+            <q-btn class="q-mx-sm" flat href="https://boosty.to/gt-impact" no-caps stretch style="border: 1px solid black; width: 100px" target="_blank" type="a">
               Boosty
             </q-btn>
           </q-card>
 
-          <q-card class="q-mt-lg">
-            <span>{{ $t('mod_list1') }}</span>
-          </q-card>
-          <q-card class="q-mt-sm">
-            <q-btn class="q-mx-sm" flat no-caps style="border: 1px solid black" @click="modList=true">{{
-                $t('mod_list')
-              }}
-            </q-btn>
-          </q-card>
         </q-card>
       </q-card>
 
       <q-dialog v-model="modList" v-close-popup full-width>
         <q-card class="q-mt-lg" square>
-          <q-card-section style="text-transform: uppercase" class="text-h4 text-bold row justify-center" >{{$t('mod_list')}}</q-card-section>
+          <q-card-section class="text-h4 text-bold row justify-center" style="text-transform: uppercase">
+            {{ $t('mod_list') }}
+          </q-card-section>
           <q-list class="q-pa-none row justify-between">
               <span v-for="mod in mods.length" :key="mod" class="q-pa-sm">{{ mods[mod] }}
               </span>

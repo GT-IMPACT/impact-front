@@ -1,0 +1,434 @@
+[
+  {
+    "id": 0,
+    "name": "COKE OVEN",
+    "slug": "cokeoven",
+    "tier": "steam",
+    "article": "wiki/machines/cokeoven.md",
+    "img": "https://gtimpact.space/media/gregtech/cokeoven.png",
+    "mod": "impact"
+  },
+  {
+    "id": 1,
+    "name": "PRIMITIVE WATER PUMP",
+    "slug": "primitivewaterpump",
+    "tier": "steam",
+    "article": "wiki/machines/primitivewaterpump.md",
+    "img": "https://gtimpact.space/media/gregtech/primwaterpump.png",
+    "mod": "impact"
+  },
+  {
+    "id": 2,
+    "name": "SAW MILL",
+    "slug": "sawmill",
+    "tier": "ulv",
+    "article": "wiki/machines/sawmill.md",
+    "img": "https://gtimpact.space/media/gregtech/sawmill.png",
+    "mod": "impact"
+  },
+  {
+    "id": 3,
+    "name": "PYROLYSE OVEN",
+    "slug": "pyrolyseoven",
+    "tier": "lv",
+    "article": "wiki/machines/pyrolyseoven.md",
+    "img": "https://gtimpact.space/media/gregtech/purolyse.png",
+    "mod": "impact"
+  },
+  {
+    "id": 4,
+    "name": "ADVANCED PYROLYSE OVEN",
+    "slug": "advancedpyrolyseoven",
+    "tier": "ev",
+    "article": "wiki/machines/advancedpyrolyseoven.md",
+    "img": "https://gtimpact.space/media/gregtech/AdvPyrolyse.png",
+    "mod": "impact"
+  },
+  {
+    "id": 5,
+    "name": "ELECTRIC WATER DRILLING RIG",
+    "slug": "electricwaterdrillingrig",
+    "tier": "mv",
+    "article": "wiki/machines/electricwaterdrillingrig.md",
+    "img": "https://gtimpact.space/media/gregtech/ElWater.png",
+    "mod": "impact"
+  },
+  {
+    "id": 6,
+    "name": "SPACE SATELLITE",
+    "slug": "spacesatellite",
+    "tier": "hv",
+    "article": "wiki/machines/spacesatellite.md",
+    "img": "https://gtimpact.space/media/gregtech/SpaceSatellite.png",
+    "mod": "impact"
+  },
+  {
+    "id": 7,
+    "name": "COMMUNICATION TOWER",
+    "slug": "communicationtower",
+    "tier": "ev",
+    "article": "wiki/machines/communicationtower.md",
+    "img": "https://gtimpact.space/media/gregtech/ParTower.png",
+    "mod": "impact"
+  },
+  {
+    "id": 8,
+    "name": "NUCLEAR REACTOR",
+    "slug": "nuclearreactor",
+    "tier": "ev",
+    "article": "wiki/machines/nuclearreactor.md",
+    "img": "https://gtimpact.space/media/gregtech/NuclearReactor.png",
+    "mod": "impact"
+  },
+  {
+    "id": 9,
+    "name": "PARALLEL SUPER COMPUTER",
+    "slug": "parallelsupercomputer",
+    "tier": "iv",
+    "article": "wiki/machines/parallelsupercomputer.md",
+    "img": "https://gtimpact.space/media/gregtech/ParComputer.png",
+    "mod": "impact"
+  },
+  {
+    "id": 10,
+    "name": "LAPOTRONIC SUPERCAPACITOR",
+    "slug": "lapotronicsupercapacitor",
+    "tier": "iv",
+    "article": "wiki/machines/lapotronicsupercapacitor.md",
+    "img": "https://gtimpact.space/media/gregtech/LSC.png",
+    "mod": "impact"
+  },
+  {
+    "id": 11,
+    "name": "MULTI PBE MACHINE",
+    "slug": "multipbemachine",
+    "tier": "iv",
+    "article": "wiki/machines/multipbemachine.md",
+    "img": "https://gtimpact.space/media/gregtech/ParBPE.png",
+    "mod": "impact"
+  },
+  {
+    "id": 12,
+    "name": "MULTI LASER ENGRAVER",
+    "slug": "multilaserengraver",
+    "tier": "iv",
+    "article": "wiki/machines/multilaserengraver.md",
+    "img": "https://gtimpact.space/media/gregtech/ParLaser.png",
+    "mod": "impact"
+  },
+  {
+    "id": 13,
+    "name": "MULTI ASSEMBLING MACHINE",
+    "slug": "multiassemblingmachine",
+    "tier": "iv",
+    "article": "wiki/machines/multiassemblingmachine.md",
+    "img": "https://gtimpact.space/media/gregtech/ParAssembler.png",
+    "mod": "impact"
+  },
+  {
+    "id": 14,
+    "name": "MULTI CENTRIFUGE",
+    "slug": "multicentrifuge",
+    "tier": "iv",
+    "article": "wiki/machines/multicentrifuge.md",
+    "img": "https://gtimpact.space/media/gregtech/ParCentrifuge.png",
+    "mod": "impact"
+  },
+  {
+    "id": 15,
+    "name": "MULTI ELECTROLYZER",
+    "slug": "multielectrolyzer",
+    "tier": "iv",
+    "article": "wiki/machines/multielectrolyzer.md",
+    "img": "https://gtimpact.space/media/gregtech/ParElectr.png",
+    "mod": "impact"
+  },
+  {
+    "id": 16,
+    "name": "MULTI WIRE FACTORY",
+    "slug": "multiwirefactory",
+    "tier": "iv",
+    "article": "wiki/machines/multiwirefactory.md",
+    "img": "https://gtimpact.space/media/gregtech/ParWire.png",
+    "mod": "impact"
+  },
+  {
+    "id": 17,
+    "name": "MULTI SUPPLY PRODUCTION",
+    "slug": "multisupplyproduction",
+    "tier": "iv",
+    "article": "wiki/machines/multisupplyproduction.md",
+    "img": "https://gtimpact.space/media/gregtech/ParSupply.png",
+    "mod": "impact"
+  },
+  {
+    "id": 18,
+    "name": "MULTI UTILITY MACHINE",
+    "slug": "multiutilitymachine",
+    "tier": "iv",
+    "article": "wiki/machines/multiutilitymachine.md",
+    "img": "https://gtimpact.space/media/gregtech/ParUtill.png",
+    "mod": "impact"
+  },
+  {
+    "id": 19,
+    "name": "MULTI BREWMENTER",
+    "slug": "multibrewmenter",
+    "tier": "iv",
+    "article": "wiki/machines/multibrewmenter.md",
+    "img": "https://gtimpact.space/media/gregtech/ParBrew.png",
+    "mod": "impact"
+  },
+  {
+    "id": 20,
+    "name": "MULTI ARC FURNACE",
+    "slug": "multiarcfurnace",
+    "tier": "iv",
+    "article": "wiki/machines/multiarcfurnace.md",
+    "img": "https://gtimpact.space/media/gregtech/ParArc.png",
+    "mod": "impact"
+  },
+  {
+    "id": 21,
+    "name": "MULTI CUTTING MACHINE",
+    "slug": "multicuttingmachine",
+    "tier": "iv",
+    "article": "wiki/machines/multicuttingmachine.md",
+    "img": "https://gtimpact.space/media/gregtech/ParCutt.png",
+    "mod": "impact"
+  },
+  {
+    "id": 22,
+    "name": "MULTI EXTRADIFICATION",
+    "slug": "multiextradification",
+    "tier": "iv",
+    "article": "wiki/machines/multiextradification.md",
+    "img": "https://gtimpact.space/media/gregtech/ParExtraDi.png",
+    "mod": "impact"
+  },
+  {
+    "id": 23,
+    "name": "MULTI MACERATION STACK",
+    "slug": "multimacerationstack",
+    "tier": "iv",
+    "article": "wiki/machines/multimacerationstack.md",
+    "img": "https://gtimpact.space/media/gregtech/ParMacer.png",
+    "mod": "impact"
+  },
+  {
+    "id": 24,
+    "name": "MULTI MIXING MACHINE",
+    "slug": "multimixingmachine",
+    "tier": "iv",
+    "article": "wiki/machines/multimixingmachine.md",
+    "img": "https://gtimpact.space/media/gregtech/ParMix.png",
+    "mod": "impact"
+  },
+  {
+    "id": 25,
+    "name": "MULTI SIFTARATION UNIT",
+    "slug": "multisiftarationunit",
+    "tier": "iv",
+    "article": "wiki/machines/multisiftarationunit.md",
+    "img": "https://gtimpact.space/media/gregtech/ParSift.png",
+    "mod": "impact"
+  },
+  {
+    "id": 26,
+    "name": "FREEZER SOLIDIFIER",
+    "slug": "freezersolidifier",
+    "tier": "ev",
+    "article": "wiki/machines/freezersolidifier.md",
+    "img": "https://gtimpact.space/media/gregtech/ParFrezSolid.png",
+    "mod": "impact"
+  },
+  {
+    "id": 27,
+    "name": "BLAST SMELTER",
+    "slug": "blastsmelter",
+    "tier": "ev",
+    "article": "wiki/machines/blastsmelter.md",
+    "img": "https://gtimpact.space/media/gregtech/BlastSmelter.png",
+    "mod": "impact"
+  },
+  {
+    "id": 28,
+    "name": "ADVANCED VACUUM FREEZER",
+    "slug": "advancedvacuumfreezer",
+    "tier": "zpm",
+    "article": "wiki/machines/advancedvacuumfreezer.md",
+    "img": "https://gtimpact.space/media/gregtech/ParFreez.png",
+    "mod": "impact"
+  },
+  {
+    "id": 29,
+    "name": "RAIL ASSEMBLER",
+    "slug": "railassembler",
+    "tier": "lv",
+    "article": "wiki/machines/railassembler.md",
+    "img": "https://gtimpact.space/media/gregtech/RailAssembler.png",
+    "mod": "impact"
+  },
+  {
+    "id": 30,
+    "name": "ELECTROMAGNETIC INDUCTION FURNACE",
+    "slug": "electromagneticinductionfurnace",
+    "tier": "zpm",
+    "article": "wiki/machines/electromagneticinductionfurnace.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/916393262401601536/EIF.png",
+    "mod": "impact"
+  },
+  {
+    "id": 31,
+    "name": "MULTI CHEMICAL REACTOR",
+    "slug": "multichemicalreactor",
+    "tier": "luv",
+    "article": "wiki/machines/multichemicalreactor.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/916408486676537394/MLCR.png",
+    "mod": "impact"
+  },
+  {
+    "id": 32,
+    "name": "MULTI DISTILLATION TOWER",
+    "slug": "multidistillationtower",
+    "tier": "luv",
+    "article": "wiki/machines/multidistillationtower.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/916408486332608592/MDT.png",
+    "mod": "impact"
+  },
+  {
+    "id": 33,
+    "name": "ANTIMATTER REACTOR",
+    "slug": "antimatterreactor",
+    "tier": "uv",
+    "article": "wiki/machines/antimatterreactor.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/916636161731100732/ANTIMATT.png",
+    "mod": "impact"
+  },
+  {
+    "id": 34,
+    "name": "TESSERACT",
+    "slug": "tesseract",
+    "tier": "uhv",
+    "article": "wiki/machines/tesseract.md",
+    "img": "https://media.discordapp.net/attachments/916393114166525974/916636161945002025/TESSERACT.png",
+    "mod": "impact"
+  },
+  {
+    "id": 35,
+    "name": "PARAMETRIC DIFFUSER",
+    "slug": "parametricdiffuser",
+    "tier": "ev",
+    "article": "wiki/machines/parametricdiffuser.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/916670175946870784/MATRIXDIFFUSER.png",
+    "mod": "impact"
+  },
+  {
+    "id": 36,
+    "name": "MATRIX PARTICLES STABILIZER",
+    "slug": "matrixparticlesstabilizer",
+    "tier": "ev",
+    "article": "wiki/machines/matrixparticlesstabilizer.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/916670176190169138/MATRIXSTABILIZER.png",
+    "mod": "impact"
+  },
+  {
+    "id": 37,
+    "name": "PARTICLES CONTAINMENT",
+    "slug": "particlescontainment",
+    "tier": "ev",
+    "article": "wiki/machines/particlescontainment.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/916670175670054982/MATRIXCONTAINER.png",
+    "mod": "impact"
+  },
+  {
+    "id": 38,
+    "name": "ME SYSTEM PROVIDER",
+    "slug": "mesystemprovider",
+    "tier": "ev",
+    "article": "wiki/machines/mesystemprovider.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/916672070048428102/MESP.png",
+    "mod": "impact"
+  },
+  {
+    "id": 39,
+    "name": "THE MILL",
+    "slug": "themill",
+    "tier": "steam",
+    "article": "wiki/machines/themill.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/927967084292485120/THE_MILL.png",
+    "mod": "impact"
+  },
+  {
+    "id": 40,
+    "name": "ADVANCED CRACKING UNIT",
+    "slug": "advancedcrackingunit",
+    "tier": "luv",
+    "article": "wiki/machines/advancedcrackingunit.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/927967084653199482/ADV_CRACKING.png",
+    "mod": "impact"
+  },
+  {
+    "id": 41,
+    "name": "COAL MINER",
+    "slug": "coalminer",
+    "tier": "steam",
+    "article": "wiki/machines/coalminer.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/927967085383016509/COAL_MINER.png",
+    "mod": "impact"
+  },
+  {
+    "id": 42,
+    "name": "BASIC ELECTRIC MINER",
+    "slug": "basicelectricminer",
+    "tier": "lv",
+    "article": "wiki/machines/basicelectricminer.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/927976409127862402/BASIC_MINER.png",
+    "mod": "impact"
+  },
+  {
+    "id": 43,
+    "name": "ADVANCED ELECTRIC MINER",
+    "slug": "advancedelectricminer",
+    "tier": "ev",
+    "article": "wiki/machines/advancedelectricminer.md",
+    "img": "https://media.discordapp.net/attachments/916393114166525974/927967084997144616/ADV_MINER.png",
+    "mod": "impact"
+  },
+  {
+    "id": 44,
+    "name": "AEROSTATE PLATFORM",
+    "slug": "aerostateplatform",
+    "tier": "lv",
+    "article": "wiki/machines/aerostateplatform.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/928212885841264650/AEROSTATE.png",
+    "mod": "impact"
+  },
+  {
+    "id": 45,
+    "name": "RESEARCH STATION",
+    "slug": "researchstation",
+    "tier": "zpm",
+    "article": "wiki/machines/researchstation.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/916638729341374504/RESEARCHSTATION.png",
+    "mod": "tectech"
+  },
+  {
+    "id": 46,
+    "name": "QUANTUM COMPUTER",
+    "slug": "quantumcomputer",
+    "tier": "zpm",
+    "article": "wiki/machines/quantumcomputer.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/916660851237322782/QCOMPUTER.png",
+    "mod": "tectech"
+  },
+  {
+    "id": 47,
+    "name": "DATA BANK",
+    "slug": "databank",
+    "tier": "zpm",
+    "article": "wiki/machines/databank.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/916693113970499634/DB.png",
+    "mod": "tectech"
+  }
+]
