@@ -4,7 +4,7 @@
 
 ##### Description
 
-The machine is analog to Brewery и Fermenter. Can work with multi-amp Energy Hatch and parallelism.
+The machine is analog to Brewery and Fermenter. Can work with multi-amp Energy Hatch and parallelism.
 
 ##### General
 
