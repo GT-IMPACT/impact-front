@@ -1,21 +1,35 @@
 ### ELECTROMAGNETIC INDUCTION FURNACE
-![LOGO](https://cdn.discordapp.com/attachments/916393114166525974/916393262401601536/EIF.png)
-##### Description
-Performs all the recipes of analog. Can work with multiple circuits in different bass modes \Buses separated on\ (switched with a screwdriver while holding down the Shift key). Recipe is made with the circuitry that is in the same bass as the material.
-##### General
-The machine is analog to Electric Blast Furnace  with the possibility of using a parallel. Can work with multi-amp Energy Hatch.
-##### Parallelism
-- Requires Parallel Super Computer
 
-- Requires Communication Tower
+![LOGO](https://cdn.discordapp.com/attachments/916393114166525974/916393262401601536/EIF.png)
 
-The machine has parallelism. Parallelism is the ability to perform the same action simultaneously in multiple threads.
+##### Description
 
-If we consider parallelism in the game, it is the execution of the same recipe type several times in one cycle (the energy consumption is proportional to the number of recipes executed).
-The machine allows you to spend Parallel Points (PP). Points are limited to Parallel Receiver: 4, 16, 64, 256.
+The machine is analog to Electric Blast Furnace  with the possibility of using a parallel. Can work with multi-amp Energy Hatch.
 
-After installing the communication tower, you must configure the frequency with which the tower, computer and machines will work. It is configured through the laptop, by clicking on the controller
-To transmit PP to the machine, you must install a Parallel Receiver in the machine. Then click on Parallel Receiver on the laptop and Parallel Transmitter on the computer.
+##### General
 
-If the receiver/transmitter lights red, it is a connection error or no connection, if it lights yellow, it is successfully connected.
-
+Performs all the recipes of analog. Can work with a lot of programmed circuits that are in different Input Buses in 'Bus separated on' mode (switched with a screwdriver while holding down the Shift key). The recipe is executed with the circuit that is in the same Input Bus as the materials.
+
+##### Parallelism
+
+- Requires Parallel Super Computer
+
+
+- Requires Communication Tower
+
+
+The machine has parallelism. Parallelism is the ability to perform the same action simultaneously in multiple threads.
+
+
+If we consider parallelism in the game, it is the execution of the same recipe type several times in one cycle (the energy consumption is proportional to the number of recipes executed).
+
+The machine allows you to spend Parallel Points (PP). Points are limited to Parallel Receiver: 4, 16, 64, 256.
+
+
+After installing the communication tower, you must configure the frequency with which the tower, computer and machines will work. It is configured through the laptop, by clicking on the controller
+
+To transmit PP to the machine, you must install a Parallel Receiver in the machine. Then click on Parallel Receiver on the laptop and Parallel Transmitter on the computer.
+
+
+If the receiver/transmitter lights red, it is a connection error or no connection, if it lights yellow, it is successfully connected.
+

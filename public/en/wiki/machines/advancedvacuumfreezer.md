@@ -1,23 +1,39 @@
 ### ADVANCED VACUUM FREEZER
-![LOGO](https://gtimpact.space/media/gregtech/ParFreez.png)
-##### Description
-During operation, it consumes 50 l/s of Super Coolant, producing 25 l/s of Hot Coolant.
-##### General
-The machine is an improved version of the conventional vacuum refrigerator (Vacuum Freezer). Can work with multi-amp Energy Hatch and parallelism.
-##### Parallelism
-- Requires Parallel Super Computer
 
-- Requires Communication Tower
+![LOGO](https://gtimpact.space/media/gregtech/ParFreez.png)
 
-The machine has parallelism. Parallelism is the ability to perform the same action simultaneously in multiple threads.
+##### Description
 
-If we consider parallelism in the game, it is the execution of the same recipe type several times in one cycle (the energy consumption is proportional to the number of recipes executed).
-The machine allows you to spend Parallel Points (PP). Points are limited to Parallel Receiver: 4, 16, 64, 256.
+The machine is an improved version of the basic Vacuum Freezer. Can work with multi-amp Energy Hatch and parallelism.
 
-After installing the communication tower, you must configure the frequency with which the tower, computer and machines will work. It is configured through the laptop, by clicking on the controller
-To transmit PP to the machine, you must install a Parallel Receiver in the machine. Then click on Parallel Receiver on the laptop and Parallel Transmitter on the computer.
+##### General
 
-If the receiver/transmitter lights red, it is a connection error or no connection, if it lights yellow, it is successfully connected.
-##### Structure Features
-When building, 7 buckets of IC2 Coolant must be poured inside.
-
+During operation, it consumes 50 l/s of Super Coolant, producing 25 l/s of Hot Coolant.
+
+##### Parallelism
+
+- Requires Parallel Super Computer
+
+
+- Requires Communication Tower
+
+
+The machine has parallelism. Parallelism is the ability to perform the same action simultaneously in multiple threads.
+
+
+If we consider parallelism in the game, it is the execution of the same recipe type several times in one cycle (the energy consumption is proportional to the number of recipes executed).
+
+The machine allows you to spend Parallel Points (PP). Points are limited to Parallel Receiver: 4, 16, 64, 256.
+
+
+After installing the communication tower, you must configure the frequency with which the tower, computer and machines will work. It is configured through the laptop, by clicking on the controller
+
+To transmit PP to the machine, you must install a Parallel Receiver in the machine. Then click on Parallel Receiver on the laptop and Parallel Transmitter on the computer.
+
+
+If the receiver/transmitter lights red, it is a connection error or no connection, if it lights yellow, it is successfully connected.
+
+##### Structure Features
+
+When building, 7 buckets of IC2 Coolant must be poured inside.
+

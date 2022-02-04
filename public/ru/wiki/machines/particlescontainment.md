@@ -1,4 +1,4 @@
-### PARTICLES CONTAINMENT
+### MATRIX PARTICLES CONTAINMENT
 
 ![LOGO](https://cdn.discordapp.com/attachments/916393114166525974/916670175670054982/MATRIXCONTAINER.png)
 
@@ -8,17 +8,17 @@
 
 ##### Главное
 
-Луч стабильных частиц от Matrix Particles Containment должен входить в I-Glass слева.
+Луч стабильных частиц от Matrix Particles Stabilizer должен входить в I-Glass слева.
 
-Расстояние до Matrix Particles Containment не должно превышать 30 блоков.
+Расстояние до Matrix Particles Stabilizer не должно превышать 30 блоков.
 
 
-Может накопить до 100 тыс. стабильных частиц. Заполняет 8 контейнеров (Empty Portable Cell with Matrix Particles) в секунду, каждый содержит 1000 частиц.
+Может накопить до 100,000 стабильных частиц. Заполняет 8 контейнеров (Empty Portable Cell with Matrix Particles) в секунду, каждый содержит 1,000 частиц.
 
 
 Луч не наносит урон.
 
-Потребляет 1920 eU/t электроэнергии.
+Потребляет 1,920 eU/t электроэнергии.
 
 ##### Особенности структуры
 
