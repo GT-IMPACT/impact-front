@@ -4,7 +4,7 @@
 
 ##### Description
 
-The machine is analog to Electromagnetic Separator и Sifting Machine. Can work with multi-amp Energy Hatch and parallelism.
+The machine is analog to Electromagnetic Separator and Sifting Machine. Can work with multi-amp Energy Hatch and parallelism.
 
 ##### General
 
