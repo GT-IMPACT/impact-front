@@ -12,7 +12,7 @@ The miner mines ore in the entire vein in which the chunk and the miner itself i
 
 ##### Mandatory!
 
-Read in Mechanics section how the generation of minerals is arranged.
+Read in [Mechanics](/wiki/mechanics#oregeneration) section how the generation of minerals is arranged.
 
 ##### Machine working
 
