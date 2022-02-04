@@ -8,7 +8,9 @@ The machine is analog to Arc Furnace, Alloy Smelter and Drying Oven. Can work wi
 
 ##### General
 
-It has three operating modes. Modes are switched with a screwdriver. Can work with multiple circuits in different bass modes \Buses separated on\ (switched with a screwdriver while holding down the Shift key). Recipe is made with the circuitry that is in the same bass as the material.
+It has three operating modes. Modes are switched with a screwdriver. 
+
+Can work with a lot of molds that are in different Input Buses in 'Bus separated on' mode (switched with a screwdriver while holding down the Shift key). The recipe is executed with the mold that is in the same Input Bus as the materials.
 
 ##### Parallelism
 
