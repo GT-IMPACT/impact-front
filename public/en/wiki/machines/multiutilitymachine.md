@@ -8,7 +8,9 @@ The machine is analog to Compressor, Extractor, Canning Machine, Packager, Recyc
 
 ##### General
 
-It has eight operating modes. Modes are switched with a screwdriver. Can work with multiple circuits in different bass modes \Buses separated on\ (switched with a screwdriver while holding down the Shift key). Recipe is made with the circuitry that is in the same bass as the material.
+It has eight operating modes. Modes are switched with a screwdriver. 
+
+Can work with a lot of programmed circuits or schemes that are in different Input Buses in 'Bus separated on' mode (switched with a screwdriver while holding down the Shift key). The recipe is executed with the circuit/scheme that is in the same Input Bus as the materials.
 
 ##### Parallelism
 
