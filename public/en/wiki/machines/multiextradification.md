@@ -4,7 +4,7 @@
 
 ##### Description
 
-The machine is analog to Fluid Extractor, Fluid Solidifier и Fluid Heater. Can work with multi-amp Energy Hatch and parallelism.
+The machine is analog to Fluid Extractor, Fluid Solidifier and Fluid Heater. Can work with multi-amp Energy Hatch and parallelism.
 
 ##### General
 
