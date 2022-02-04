@@ -4,7 +4,7 @@
 
 ##### Description
 
-The machine is analog to Cutting Machine и Saw Mill. Can work with multi-amp Energy Hatch and parallelism.
+The machine is analog to Cutting Machine and Saw Mill. Can work with multi-amp Energy Hatch and parallelism.
 
 ##### General
 
