@@ -1,4 +1,4 @@
-### Multi Laser Engraver
+### MULTI LASER ENGRAVER
 
 ![LOGO](https://gtimpact.space/media/gregtech/ParLaser.png)
 
