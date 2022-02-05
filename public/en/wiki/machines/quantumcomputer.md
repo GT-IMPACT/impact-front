@@ -1,4 +1,4 @@
-### Quantum Computer
+### QUANTUM COMPUTER
 
 ![LOGO](https://cdn.discordapp.com/attachments/916393114166525974/916660851237322782/QCOMPUTER.png)
 
