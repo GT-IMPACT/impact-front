@@ -1,4 +1,4 @@
-### Multi PBE Machine
+### MULTI PBE MACHINE
 
 ![LOGO](https://gtimpact.space/media/gregtech/ParBPE.png)
 
