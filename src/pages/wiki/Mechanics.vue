@@ -13,7 +13,7 @@
     </q-card-section>
 
     <q-card-section class="items-center q-pa-md" style="text-align: center">
-      <q-card flat square style="padding-top: 60px; padding-bottom: 60px;">
+      <q-card flat square style="padding-top: 20px; padding-bottom: 20px;">
 
         <q-card class="row justify-center" flat>
           <template v-for="mechanic in mechanics" :key="mechanic['id']">
