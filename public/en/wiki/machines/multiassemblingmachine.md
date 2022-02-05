@@ -1,4 +1,4 @@
-### Multi Assembling Machine
+### MULTI ASSEMBLING MACHINE
 
 ![LOGO](https://gtimpact.space/media/gregtech/ParAssembler.png)
 
