@@ -1,4 +1,4 @@
-### Lapotronic Supercapacitor
+### LAPOTRONIC SUPERCAPACITOR
 
 ![LOGO](https://gtimpact.space/media/gregtech/LSC.png)
 
