@@ -1,4 +1,4 @@
-### Data Bank
+### DATA BANK
 
 ![LOGO](https://cdn.discordapp.com/attachments/916393114166525974/916693113970499634/DB.png)
 
