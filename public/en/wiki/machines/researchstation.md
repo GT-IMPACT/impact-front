@@ -1,4 +1,4 @@
-### Research Station
+### RESEARCH STATION
 
 ![LOGO](https://cdn.discordapp.com/attachments/916393114166525974/916638729341374504/RESEARCHSTATION.png)
 
