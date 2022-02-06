@@ -4,7 +4,7 @@
 
 ##### Description
 
-The machine is analog to Large Chemical Reactor. Can work with parallelism.
+The machine is analog to Large Chemical Reactor. Can work with [parallelism](/wiki/mechanics#parallelism).
 
 ##### General
 

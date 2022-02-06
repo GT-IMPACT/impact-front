@@ -1,6 +1,6 @@
 ### ELECTRIC AIR FILTER
 
-![LOGO](https://cdn.discordapp.com/attachments/916288528546144256/939508105786581012/filter.png)
+![LOGO](https://cdn.discordapp.com/attachments/916393114166525974/939873326082449448/AIR_FILTER.png)
 
 ##### Description
 

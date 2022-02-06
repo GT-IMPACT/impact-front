@@ -1,6 +1,6 @@
 ### MULTIBLOCK CENTRIFUGE
 
-![LOGO](https://cdn.discordapp.com/attachments/916288528546144256/939507189628932207/centrifuge.png)
+![LOGO](https://cdn.discordapp.com/attachments/916393114166525974/939873326405402654/CENTRIFUGE.png)
 
 ##### Описание
 
@@ -12,4 +12,4 @@
 
 ##### Важно!
 
-Рецепты с капсулами выполняются путём заливания соответствующей жидкости в Input Hatch. 
+Рецепты с капсулами выполняются путём заливания соответствующей жидкости в Input Hatch.

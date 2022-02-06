@@ -1,10 +1,10 @@
 ### HEAVY METAL CYCLONE
 
-![LOGO](https://cdn.discordapp.com/attachments/916288528546144256/939503146693165086/cyclone.png)
+![LOGO](https://cdn.discordapp.com/attachments/916393114166525974/939873327567224912/HMC.png)
 
 ##### Description
 
-The mechanism allows you to purify various naquadah liquids from impurities of metals, as well as obtain rare superheavy elements. Can work with parallelism.
+The mechanism allows you to purify various naquadah liquids from impurities of metals, as well as obtain rare superheavy elements. Can work with [parallelism](/wiki/mechanics#parallelism).
 
 ##### General
 

@@ -8,11 +8,11 @@ Powerful generator working on Hyper Fuel (Hyper Fuel I, II, III).
 
 ##### General
 
-It is possible to set up to 3 Input Hatch for 3 fuels. 
+It is possible to set up to 3 Input Hatch for 3 fuels.
 
-Generator starts to output energy only after reaching 100% efficiency (acceleration in 20 sec.). 
+Generator starts to output energy only after reaching 100% efficiency (acceleration in 20 sec.).
 
-Outputs 134,217,728 eU/t.
+Outputs 134,217,728 EU/t.
 
 ##### Structure features
 

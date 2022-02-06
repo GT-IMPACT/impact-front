@@ -4,11 +4,11 @@
 
 ##### Description
 
-The machine is analog to Compressor, Extractor, Canning Machine, Packager, Recycler, Forge Hammer, Lathe and Polarizer. Can work with parallelism.
+The machine is analog to Compressor, Extractor, Canning Machine, Packager, Recycler, Forge Hammer, Lathe and Polarizer. Can work with [parallelism](/wiki/mechanics#parallelism).
 
 ##### General
 
-It has eight operating modes. Modes are switched with a screwdriver. 
+It has eight operating modes. Modes are switched with a screwdriver.
 
 Can work with a lot of schemes that are in different Input Buses in 'Bus separated on' mode (switched with a screwdriver while holding down the Shift key). The recipe is executed with the scheme that is in the same Input Bus as the materials.
 

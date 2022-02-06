@@ -4,11 +4,11 @@
 
 ##### Описание
 
-Машина является аналогом Fluid Extractor, Fluid Solidifier и Fluid Heater. Может работать с параллельностью.
+Машина является аналогом Fluid Extractor, Fluid Solidifier и Fluid Heater. Может работать с [параллельностью](/wiki/mechanics#parallelism).
 
 ##### Главное
 
-Имеет три режима работы. Режимы переключаются отвёрткой. 
+Имеет три режима работы. Режимы переключаются отвёрткой.
 
 ##### Режим 1. Fluid Extractor
 

@@ -1,6 +1,6 @@
 ### TINY WORMHOLE
 
-![LOGO](https://cdn.discordapp.com/attachments/916288528546144256/939505353505243136/wormhole.png)
+![LOGO](https://cdn.discordapp.com/attachments/916393114166525974/939873328078938122/TINI_WORMHOLE.png)
 
 ##### Description
 
