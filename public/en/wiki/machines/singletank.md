@@ -4,7 +4,7 @@
 
 ##### Description
 
-The mechanism is designed to store 1 liquid in a huge volume.
+The mechanism is needed to store 1 liquid in a huge volume.
 
 ##### General
 
@@ -21,6 +21,8 @@ To interface with the ME-network, you should install an I/O Tank Hatch and hang 
 ##### Important!
 
 Does not destroy excess fluid through the I/O Tank Hatch, you must install an additional Input Hatch with a second fluid storage bus in "Input Only" mode.
+
+Also an additional Input Hatch is needed if the tank runs out of fluid, as the ME-network will not pour it through the I/O Tank Hatch.
 
 ##### Structure features
 
