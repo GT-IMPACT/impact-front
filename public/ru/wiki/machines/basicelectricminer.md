@@ -25,7 +25,7 @@
 
 Майнер имеет бонус к добычи. Выполняется дробление вскопанной руды (шанс на дробление 5%).
 
-![OTHER](https://cdn.discordapp.com/attachments/916393114166525974/927973613922037770/unknown.png)
+![SMALL](https://cdn.discordapp.com/attachments/916393114166525974/927973613922037770/unknown.png)
 
 ##### Важно!
 

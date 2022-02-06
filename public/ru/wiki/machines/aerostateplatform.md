@@ -23,7 +23,7 @@
 
 Вы можете перемещаться на любую из них, если у вас достаточно газа.
 
-![OTHER](https://i.imgur.com/b5WZVIJ.gif)
+![BIG](https://i.imgur.com/b5WZVIJ.gif)
 
 ##### Важно!
 

@@ -35,7 +35,7 @@
 
 Управление реактором:
 
-![OTHER](https://gtimpact.space/media/gregtech/NuclearGui.png)
+![SMALL](https://gtimpact.space/media/gregtech/NuclearGui.png)
 
 ##### Управление стержнями
 
@@ -50,5 +50,5 @@
 
 Управление стержнем:
 
-![OTHER](https://gtimpact.space/media/gregtech/NuclearHatch.png)
+![SMALL](https://gtimpact.space/media/gregtech/NuclearHatch.png)
 

@@ -24,4 +24,4 @@ Communication Transmitter используется для настройки ч�
 
 Установка частоты для космического спутника:
 
-![OTHER](https://gtimpact.space/media/gregtech/connectSattelite.gif)
+![BIG](https://gtimpact.space/media/gregtech/connectSattelite.gif)

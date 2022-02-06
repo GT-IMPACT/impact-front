@@ -32,10 +32,9 @@ This mode allows the rapid decay of nuclear fuel. Fuel decay occurs 5 times fast
 
 6. Up / Down the level for all rods by 10%.
 
-
 Reactor control:
 
-![OTHER](https://gtimpact.space/media/gregtech/NuclearGui.png)
+![SMALL](https://gtimpact.space/media/gregtech/NuclearGui.png)
 
 ##### Rod control
 
@@ -47,7 +46,6 @@ Reactor control:
 
 4. If you visit the fuel, the duration of the fuel burning is subtracted in proportion to the level of the rod.
 
-
 Rod control:
 
-![OTHER](https://gtimpact.space/media/gregtech/NuclearHatch.png)
+![SMALL](https://gtimpact.space/media/gregtech/NuclearHatch.png)

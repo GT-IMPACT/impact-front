@@ -2,19 +2,19 @@
   {
     "id": 0,
     "name": "machines",
-    "label": "wiki_machines_small",
+    "label": "wiki_machines",
     "icon": "precision_manufacturing"
   },
   {
     "id": 1,
     "name": "mechanics",
-    "label": "wiki_mechanics_small",
+    "label": "wiki_mechanics",
     "icon": "book"
   },
   {
     "id": 1,
     "name": "items",
-    "label": "wiki_items_small",
+    "label": "wiki_items",
     "icon": "construction",
     "disable": true
   }

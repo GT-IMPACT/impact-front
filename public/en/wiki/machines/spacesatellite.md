@@ -4,7 +4,7 @@
 
 ##### Description
 
-The Space Satellite allows for wireless communication between machines on planets.
+The Space Satellite allows for wireless communication between machines on earth.
 
 ##### General
 
@@ -22,6 +22,6 @@ One satellite is enough for the game.
 
 The satellite does not require electrical power.
 
-Setting the frequency for the Space Satellite:
+Setting the frequency for the Space Satellite
 
-![OTHER](https://gtimpact.space/media/gregtech/connectSattelite.gif)
+![BIG](https://gtimpact.space/media/gregtech/connectSattelite.gif)

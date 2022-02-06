@@ -50,12 +50,12 @@ Max PP — the total amount of PP from the Parallel Processors installed in the 
 
 Setting the frequency for connecting the Computer to the Communication Tower:
 
-![OTHER](https://gtimpact.space/media/gregtech/connectTowerComp.gif)
+![BIG](https://gtimpact.space/media/gregtech/connectTowerComp.gif)
 
 Parallel Processors in a Computer Rack:
 
-![OTHER](https://gtimpact.space/media/gregtech/ComputerRackGUI.png)
+![BIG](https://gtimpact.space/media/gregtech/ComputerRackGUI.png)
 
 Setting up the transmit of PP from the computer to the machine:
 
-![OTHER](https://gtimpact.space/media/gregtech/connectMachineComp.gif)
+![BIG](https://gtimpact.space/media/gregtech/connectMachineComp.gif)
