@@ -4,7 +4,7 @@
 
 ##### Description
 
-The mechanism is needed to produce various high-level mechanisms and items. Can work with multi-amp Energy Hatch.
+The mechanism is needed to produce various high-level mechanisms and items.
 
 ##### General
 
