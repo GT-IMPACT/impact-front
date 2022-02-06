@@ -4,7 +4,7 @@
 
 ##### Description
 
-The mechanism is needed to provide the Research station with computation. Can work with multi-amp Energy Hatch.
+The mechanism is needed to provide the Research station with computation.
 
 ##### General
 
@@ -28,21 +28,16 @@ The blocks in front of the Computer Heat Vents must be empty.
 
 It is forbidden to dismantle a structure in working state to avoid an explosion!
 
-##### Uncertainty resolving in Uncertainty Resolver
+##### Uncertainty resolving
 
 You just need to balance the lights around the focal points in the uncertainty hatch. There are 9 focal points in total, active ones are either green or red, you don't need to balance inactive ones.
 
-
-If you take a closer look at the LEDs you will notice that they have 2 shades on their surface. Darker color denotes the affected area by the focal point. Only that area needs to be \balanced on top of the focal point\ to satisfy it.
-
-
-In the example i have highlighted the effect range of 2 focal points.
-
+If you take a closer look at the LEDs you will notice that they have 2 shades on their surface. Darker color denotes the affected area by the focal point. Only that area needs to be balanced on top of the focal point to satisfy it.
 
 Buttons on the sides are used to pickup and replace 2 uncertain values.
 
-
 Uncertainty Resolver X resolves uncertainty automatically.
 
-![OTHER](https://cdn.discordapp.com/attachments/916393114166525974/924258464195289138/Uncertain.png)
+In the example i have highlighted the effect range of 2 focal points:
 
+![OTHER](https://cdn.discordapp.com/attachments/916393114166525974/924258464195289138/Uncertain.png)
