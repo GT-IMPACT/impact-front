@@ -18,9 +18,8 @@ Can accumulate up to 100,000 stable particles. Produces 1,000 particles per seco
 
 Beams and lightnings do no damage.
 
-Constantly consumpes 1,920 EU/t electricity.
+Constantly consumes 1,920 EU/t electricity.
 
 ##### Structure features
 
 The color of the I-Glass in the structure does not matter.
-
