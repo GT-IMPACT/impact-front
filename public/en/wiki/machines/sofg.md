@@ -4,7 +4,7 @@
 
 ##### Description
 
-The mechanism is an alternative to a gas turbine: consuming combustible gas (see gas turbine fuel in NEI) and oxygen, it generates normal or superheated steam and energy. It can work with multi-amp Dynamo Hatch.
+The mechanism is an alternative to a gas turbine: consuming combustible gas (see gas turbine fuel in NEI) and oxygen, it generates normal or superheated steam and energy.
 
 ##### General
 
