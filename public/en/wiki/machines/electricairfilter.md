@@ -4,7 +4,7 @@
 
 ##### Description
 
-The mechanism is designed for pollution cleaning. Can work with multi-amp Energy Hatch.
+The mechanism is designed for pollution cleaning.
 
 ##### General
 
