@@ -4,7 +4,7 @@
 
 ##### Description
 
-The mechanism is an improved version of the large steam turbines. Can work with multi-amp Dynamo Hatch.
+The mechanism is an improved version of the large steam turbines.
 
 ##### General
 
