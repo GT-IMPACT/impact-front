@@ -4,7 +4,7 @@
 
 ##### Description
 
-A electric basic miner for mining.
+An electric basic miner for mining.
 
 ##### General
 
@@ -20,7 +20,7 @@ With the help of Miner Drill Hatch miner to produce minerals.
 
 The Drill Hatch houses the Drill Head, a headband that has a strength, with the strength of the headband decreasing with each cycle of the miner.
 
-You can use different headband tiers. Headband tier means that a factor (headband tiers) is added to the base ore extraction (x1): Extraction = 1 + tier
+You can use different headband tiers. Headband tier means that a factor (headband tiers) is added to the base ore extraction (x1): Extraction = 1 + tier.
 
 
 Miner has a bonus to mining. Crushing of excavated ore is performed (5% chance of crushing).
@@ -30,4 +30,3 @@ Miner has a bonus to mining. Crushing of excavated ore is performed (5% chance o
 ##### Important!
 
 Only one miner can be in one chunk!
-
