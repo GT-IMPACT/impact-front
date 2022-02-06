@@ -4,9 +4,11 @@
 
 ##### Description
 
-The mechanism makes it possible to produce alloys in liquid form from a multitude of solid components at the input. Can work with multi-amp Energy Hatch.
+The mechanism makes it possible to produce alloys in liquid form from a multitude of solid components at the input.
 
 ##### General
+
+Performs recipes that can be seen in the NEI.
 
 Blast Smelter can work with a lot of programmed circuits that are in different Input Buses. The recipe is executed with the circuit that is in the same Input Bus as the materials.
 
@@ -24,4 +26,3 @@ The Blast Smelter also has mechanics similar to those of the Electric Blast Furn
 ##### Structure Features
 
 Smelter has 24 heating coils, the same as those used in the electric blast furnace. It is not possible to combine different coils.
-
