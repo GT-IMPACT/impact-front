@@ -4,7 +4,7 @@
 
 ##### Description
 
-The mechanism is analog of Electrolyzer. Can work with multi-amp Energy Hatch.
+The mechanism is analog of Electrolyzer.
 
 ##### General
 
