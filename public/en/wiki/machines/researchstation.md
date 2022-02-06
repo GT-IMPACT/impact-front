@@ -4,7 +4,7 @@
 
 ##### Description
 
-The mechanism is needed to learn the recipes of high-tier items (usually, UHV+ tier). Can work with multi-amp Energy Hatch.
+The mechanism is needed to learn the recipes of high-tier items (usually, UHV+ tier).
 
 ##### General
 
