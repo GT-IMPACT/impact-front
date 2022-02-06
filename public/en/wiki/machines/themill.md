@@ -7,8 +7,8 @@
 The windmill is the very first multiblock in the game. You'll need it to crush your first resource pebbles. The windmill is large in size, which makes it a good option for first base.
 
 ##### General
-The mill carries out recipes that can be seen at NEI.
 
+Performs recipes that can be seen in the NEI.
 
 ##### Structure features
 
