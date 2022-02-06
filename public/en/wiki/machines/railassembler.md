@@ -4,9 +4,10 @@
 
 ##### Description
 
-The machine is needed for the production of railroad tracks. Can work with multi-amp Energy Hatch.
+The machine is needed for the production of railway tracks.
 
 ##### General
 
-Can work with a lot of programmed circuits that are in different Input Buses. The recipe is executed with the circuit that is in the same Input Bus as the materials.
+Performs recipes that can be seen in the NEI.
 
+Can work with a lot of programmed circuits that are in different Input Buses. The recipe is executed with the circuit that is in the same Input Bus as the materials.
