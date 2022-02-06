@@ -4,7 +4,7 @@
 
 ##### Description
 
-There are 3 tiers of the reactor, they differ in structure and the amount of rods (1, 9 or 25). Designed for the generation of conventional / superheated steam and for the extraction of radioactive resources.
+There are 3 tiers of the reactor, they differ in structure and the amount of rods (1, 9 or 25). Designed for the generation of basic / superheated steam and for the extraction of radioactive resources.
 
 ##### General
 
@@ -32,8 +32,7 @@ This mode allows the rapid decay of nuclear fuel. Fuel decay occurs 5 times fast
 
 6. Up / Down the level for all rods by 10%.
 
-
-Reactor control
+Reactor control:
 
 ![SMALL](https://gtimpact.space/media/gregtech/NuclearGui.png)
 
@@ -47,8 +46,6 @@ Reactor control
 
 4. If you visit the fuel, the duration of the fuel burning is subtracted in proportion to the level of the rod.
 
-
-Rod control
+Rod control:
 
 ![SMALL](https://gtimpact.space/media/gregtech/NuclearHatch.png)
-

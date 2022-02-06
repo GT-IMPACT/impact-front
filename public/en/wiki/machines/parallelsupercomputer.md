@@ -8,9 +8,9 @@ The supercomputer allows parallels to be distributed to Impact machines.
 
 ##### General
 
-— Need a Space Satellite
+— Needs a Space Satellite
 
-— Need a Communication Tower
+— Needs a Communication Tower
 
 
 The computer stores Parallel Point (PP), with the possibility of increasing or spending them. Points are needed to distribute parallels to machines, each machine is limited by the number of parallels: 4, 16, 64, 256.
@@ -48,15 +48,14 @@ Consumption (EU/t) = 8192 + Max PP.
 Max PP — the total amount of PP from the Parallel Processors installed in the computer.
 
 
-Setting the frequency for connecting the Computer to the Communication Tower
+Setting the frequency for connecting the Computer to the Communication Tower:
 
 ![BIG](https://gtimpact.space/media/gregtech/connectTowerComp.gif)
 
-Parallel Processors in a Computer Rack
+Parallel Processors in a Computer Rack:
 
-![SMALL](https://gtimpact.space/media/gregtech/ComputerRackGUI.png)
+![BIG](https://gtimpact.space/media/gregtech/ComputerRackGUI.png)
 
-Setting up the transmit of PP from the computer to the machine
+Setting up the transmit of PP from the computer to the machine:
 
 ![BIG](https://gtimpact.space/media/gregtech/connectMachineComp.gif)
-

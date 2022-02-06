@@ -4,7 +4,7 @@
 
 ##### Description
 
-The Communication Tower allows wireless communication between the satellite in orbit and machines on the «Earth».
+The Communication Tower allows wireless communication between the satellite in orbit and machines on the planets.
 
 ##### General
 
@@ -14,8 +14,7 @@ The Communication Tower allows wireless communication between the satellite in o
 
 After installing the Space Satellite, you must tune the frequency using your Laptop.
 
-
-Communication Receiver is used to configure the connection. The frequency must match the satellite frequency. To establish communication, you need to connect all 4 receivers.
+Communication Receiver is used to configure the connection. The frequency must match the satellite frequency. To establish communication, you need to connect all 4 receivers and controller.
 
 ##### Important!
 
@@ -25,8 +24,6 @@ Several towers can be connected to one frequency — the satellite frequency.
 
 The tower does not require electrical power.
 
-
-Setting the frequency for connecting the Communication Tower to the satellite
+Setting the frequency for connecting the Communication Tower to the satellite:
 
 ![BIG](https://gtimpact.space/media/gregtech/connectTowerSattelite.gif)
-

@@ -36,20 +36,20 @@ Parallel Transmitter используется для передачи парал
 
 Энергопотребление компьютера рассчитывается по следующей формуле:
 
-Потребление (EU/t) = 8192 + Max PP.
+Потребление (eU/t) = 8,192 + Max PP.
 
 Max PP - общее количество PP от параллельных процессоров, установленных в компьютере.
 
 
-Установка частоты подключения компьютера к Communication Tower
+Установка частоты подключения компьютера к Communication Tower:
 
 ![BIG](https://gtimpact.space/media/gregtech/connectTowerComp.gif)
 
-Parallel Processors в Computer Rack
+Parallel Processors в Computer Rack:
 
 ![SMALL](https://gtimpact.space/media/gregtech/ComputerRackGUI.png)
 
-Настройка передачи PP от компьютера к машине
+Настройка передачи PP от компьютера к машине:
 
 ![BIG](https://gtimpact.space/media/gregtech/connectMachineComp.gif)
 

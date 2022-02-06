@@ -8,7 +8,7 @@ The Space Satellite allows for wireless communication between machines on earth.
 
 ##### General
 
-— Need a Communication Tower
+— Needs a Communication Tower
 
 ##### Principle of operation
 
@@ -25,4 +25,3 @@ The satellite does not require electrical power.
 Setting the frequency for the Space Satellite
 
 ![BIG](https://gtimpact.space/media/gregtech/connectSattelite.gif)
-
