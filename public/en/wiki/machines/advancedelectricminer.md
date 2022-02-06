@@ -4,11 +4,11 @@
 
 ##### Description
 
-A advanced electric basic miner for mining.
+An advanced electric basic miner for mining.
 
 ##### General
 
-The miner mines ore in the entire vein in which the chunk and the miner itself is located. Пассивно потребляет Drilling Fluid за цикл.
+The miner mines ore in the entire vein in which the chunk and the miner itself is located. Passively consumes drilling fluid.
 
 ##### Mandatory!
 
@@ -37,7 +37,7 @@ Example (see picture): if you have Drill Head level 3, then the ore is mined x4,
 
 - Energy consumption = 4 * 480 = 1,920 EU/t + Miner base consumption.
 
-- Fluid consumption = 4 * 1000 = 4000L.
+- Fluid consumption = 4 * 1,000 = 4,000L.
 
 - Time = not included.
 
@@ -46,4 +46,3 @@ Example (see picture): if you have Drill Head level 3, then the ore is mined x4,
 ##### Important!
 
 Only one miner can be in one chunk!
-
