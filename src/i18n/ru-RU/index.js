@@ -63,12 +63,10 @@ export default {
   wiki_general: "Главное",
   wiki_credits: "Данная вики сделана благодаря 4gname, FireWarrior и Rait_GamerGR",
 
-  wiki_machines: "Машины и Механизмы IMPACT",
-  wiki_machines_small: "Машины и Механизмы",
-  wiki_mechanics: "Механики IMPACT",
-  wiki_mechanics_small: "Механики",
-  wiki_items: "Инструменты и предметы IMPACT",
-  wiki_items_small: "Инструменты и предметы",
+  wiki_machines: "Машины и Механизмы",
+  wiki_mechanics: "Механики",
+  wiki_items: "Инструменты и предметы",
 
   wiki_mechanics_oregeneration: "Рудогенерация",
+  wiki_mechanics_parallelism: "Параллельность",
 }

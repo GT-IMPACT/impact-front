@@ -25,7 +25,7 @@ You can use different headband tiers. Headband tier means that a factor (headban
 
 Miner has a bonus to mining. Crushing of excavated ore is performed (50% chance of crushing).
 
-![OTHER](https://cdn.discordapp.com/attachments/916393114166525974/927973613922037770/unknown.png)
+![SMALL](https://cdn.discordapp.com/attachments/916393114166525974/927973613922037770/unknown.png)
 
 With the Miner Enrichment Unit, the miner increases the yield of ore, and also does the first processing of this ore.
 
@@ -41,7 +41,7 @@ Example (see picture): if you have Drill Head level 3, then the ore is mined x4,
 
 - Time = not included.
 
-![OTHER](https://cdn.discordapp.com/attachments/916393114166525974/927979571993776218/unknown.png)
+![SMALL](https://cdn.discordapp.com/attachments/916393114166525974/927979571993776218/unknown.png)
 
 ##### Important!
 

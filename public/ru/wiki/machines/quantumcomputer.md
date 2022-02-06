@@ -45,5 +45,5 @@ Buttons on the sides are used to pickup and replace 2 uncertain values.
 
 Buttons on the sides are used to pickup and replace 2 uncertain values.
 
-![OTHER](https://cdn.discordapp.com/attachments/916393114166525974/924258464195289138/Uncertain.png)
+![SMALL](https://cdn.discordapp.com/attachments/916393114166525974/924258464195289138/Uncertain.png)
 

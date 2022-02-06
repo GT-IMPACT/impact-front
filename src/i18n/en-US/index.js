@@ -65,13 +65,11 @@ export default {
   wiki_general: 'General',
   wiki_credits: "This wiki is create by of 4gname, FireWarrior, and Rait_GamerGR",
 
-  wiki_machines: "Machines IMPACT",
-  wiki_machines_small: "Machines",
-  wiki_mechanics: "Mechanics IMPACT",
-  wiki_mechanics_small: "Mechanics",
-  wiki_items: "Tools and Items IMPACT",
-  wiki_items_small: "Tools and Items",
+  wiki_machines: "Machines",
+  wiki_mechanics: "Mechanics",
+  wiki_items: "Tools and Items",
 
   wiki_mechanics_oregeneration: "Ore Generation",
+  wiki_mechanics_parallelism: "Parallelism",
 
 }

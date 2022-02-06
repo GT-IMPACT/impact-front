@@ -25,9 +25,9 @@
 
 Майнер имеет бонус к добычи. Выполняется дробление вскопанной руды (шанс на дробление 5%).
 
-![OTHER](https://cdn.discordapp.com/attachments/916393114166525974/927973613922037770/unknown.png)
+![SMALL](https://cdn.discordapp.com/attachments/916393114166525974/927973613922037770/unknown.png)
 
-С помощью Miner Enrichment Unit майнер увеличивает выход руды, а также делает первую переработку этой руды. 
+С помощью Miner Enrichment Unit майнер увеличивает выход руды, а также делает первую переработку этой руды.
 
 
 Enrichment Unit выполняет рецепты Flotation Unit. Энергия суммируется по рецепту.
@@ -41,7 +41,7 @@ Enrichment Unit выполняет рецепты Flotation Unit. Энергия
 
 - Время = не учитывается.
 
-![OTHER](https://cdn.discordapp.com/attachments/916393114166525974/927979571993776218/unknown.png)
+![SMALL](https://cdn.discordapp.com/attachments/916393114166525974/927979571993776218/unknown.png)
 
 ##### Важно!
 

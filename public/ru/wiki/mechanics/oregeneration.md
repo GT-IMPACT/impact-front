@@ -18,7 +18,7 @@
 
 На рисунке выбран слой #1, видно что жила состоит из 16 кубиков (чанков).
 
-![OTHER](https://cdn.discordapp.com/attachments/916393114166525974/928061128100184124/unknown.png)
+![SMALL](https://cdn.discordapp.com/attachments/916393114166525974/928061128100184124/unknown.png)
 
 В каждом чанке в зависимости от уровня слоя и типа жилы, генерируется определенное количество руды.
 
@@ -32,17 +32,17 @@
 
 Можно использовать только для слоя #0.
 
-![OTHER](https://i.imgur.com/baAOsHM.gif)
+![BIG](https://i.imgur.com/baAOsHM.gif)
 
 В ранней игре найти руду становится проще, для этого используюся блочные проспекторы.
 
 Проспекторы позволяют находить не только руду, но и жидкости.
 
-![OTHER](https://i.imgur.com/mlj29PP.gif)
+![BIG](https://i.imgur.com/mlj29PP.gif)
 
 В поздней игре появляются ручные проспекторы, не требующие ничего кроме энергии. Принцип работый такой же как у блочных проспекторов.
 
-![OTHER](https://i.imgur.com/dqtruf0.gif)
+![BIG](https://i.imgur.com/dqtruf0.gif)
 
 ##### Добыча руды
 
@@ -51,4 +51,4 @@
 - Basic Electric Miner: электрический майнер, способный добывать руду во всех слоях, имеет небольшой бонус при копании ([см. статью на вики](/wiki/machines#basicelectricminer))
 - Advanced Electric Miner: улучшеный электрический майнер, способный добывать руду во всех слоях, имеет значительный бонус при копании, а также содержит модуль флотации ([см. статью на вики](/wiki/machines#advancedelectricminer))
 
-![OTHER](https://cdn.discordapp.com/attachments/916393114166525974/928070934580068462/unknown.png)
+![SMALL](https://cdn.discordapp.com/attachments/916393114166525974/928070934580068462/unknown.png)

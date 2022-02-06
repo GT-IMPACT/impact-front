@@ -76,7 +76,7 @@ img[alt=LOGO] {
   height: 50%;
 }
 
-img[alt=OTHER] {
+img[alt=SMALL] {
   width: 90%;
   height: 90%;
 }

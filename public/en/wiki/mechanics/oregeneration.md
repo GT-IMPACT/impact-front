@@ -18,7 +18,7 @@ There are two layers to the game:
 
 In the picture, layer #1 is selected, you can see that the vein consists of 16 cubes (chunks).
 
-![OTHER](https://cdn.discordapp.com/attachments/916393114166525974/928061128100184124/unknown.png)
+![SMALL](https://cdn.discordapp.com/attachments/916393114166525974/928061128100184124/unknown.png)
 
 Each chunk generates a certain amount of ore, depending on the level of the layer and type of vein.
 
@@ -32,17 +32,17 @@ This tool allows you to determine from the rock which ore is in the current chun
 
 Can only be used for layer #0
 
-![OTHER](https://i.imgur.com/baAOsHM.gif)
+![BIG](https://i.imgur.com/baAOsHM.gif)
 
 In the early game it becomes easier to find ore by using ore prospectors.
 
 Ore Prospectors allow you to find not only ore, but also fluids.
 
-![OTHER](https://i.imgur.com/mlj29PP.gif)
+![BIG](https://i.imgur.com/mlj29PP.gif)
 
 In the late game there are manual ore prospectors, which do not require anything but energy. The principle of operation is the same as that of blocks ore prospectors.
 
-![OTHER](https://i.imgur.com/dqtruf0.gif)
+![BIG](https://i.imgur.com/dqtruf0.gif)
 
 ##### Ore mining
 
@@ -51,4 +51,4 @@ To mine the ore, you will need miners:
 - Basic Electric Miner: able to mine ore in all layers, has a small bonus when digging ([check](/wiki/machines#basicelectricminer))
 - Advanced Electric Miner: able to mine ore in all layers, has a significant digging bonus, and also contains a flotation module ([check](/wiki/machines#advancedelectricminer))
 
-![OTHER](https://cdn.discordapp.com/attachments/916393114166525974/928070934580068462/unknown.png)
+![SMALL](https://cdn.discordapp.com/attachments/916393114166525974/928070934580068462/unknown.png)

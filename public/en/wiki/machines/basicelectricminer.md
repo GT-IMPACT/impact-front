@@ -25,7 +25,7 @@ You can use different headband tiers. Headband tier means that a factor (headban
 
 Miner has a bonus to mining. Crushing of excavated ore is performed (5% chance of crushing).
 
-![OTHER](https://cdn.discordapp.com/attachments/916393114166525974/927973613922037770/unknown.png)
+![SMALL](https://cdn.discordapp.com/attachments/916393114166525974/927973613922037770/unknown.png)
 
 ##### Important!
 

@@ -5,5 +5,12 @@
     "slug": "oregeneration",
     "article": "wiki/mechanics/oregeneration.md",
     "img": "https://cdn.discordapp.com/attachments/916393114166525974/928074818505560064/111.png"
+  },
+  {
+    "id": 1,
+    "name": "parallelism",
+    "slug": "parallelism",
+    "article": "wiki/mechanics/parallelism.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939784614275330088/PARALLELISM.png"
   }
 ]

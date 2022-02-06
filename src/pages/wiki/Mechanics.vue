@@ -12,7 +12,11 @@
       {{ lang('wiki_mechanics') }}
     </q-card-section>
 
-    <q-card-section class="items-center q-pa-md" style="text-align: center">
+    <q-card-section class="q-pa-none">
+      <q-btn to="/wiki" style="border-radius: 0" size="lg" flat icon="keyboard_backspace" text-color="white" />
+    </q-card-section>
+
+    <q-card-section class="items-center q-pa-none" style="text-align: center">
       <q-card flat square style="padding-top: 20px; padding-bottom: 20px;">
 
         <q-card class="row justify-center" flat>

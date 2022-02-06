@@ -43,13 +43,13 @@ Max PP - общее количество PP от параллельных про
 
 Установка частоты подключения компьютера к Communication Tower
 
-![OTHER](https://gtimpact.space/media/gregtech/connectTowerComp.gif)
+![BIG](https://gtimpact.space/media/gregtech/connectTowerComp.gif)
 
 Parallel Processors в Computer Rack
 
-![OTHER](https://gtimpact.space/media/gregtech/ComputerRackGUI.png)
+![SMALL](https://gtimpact.space/media/gregtech/ComputerRackGUI.png)
 
 Настройка передачи PP от компьютера к машине
 
-![OTHER](https://gtimpact.space/media/gregtech/connectMachineComp.gif)
+![BIG](https://gtimpact.space/media/gregtech/connectMachineComp.gif)
 
