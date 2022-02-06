@@ -4,7 +4,7 @@
 
 ##### Description
 
-The mechanism allows you to store a large number of Data Sticks with recipes of Assembly Lines and supply them with these recipes. Can work with multi-amp Energy Hatch.
+The mechanism allows you to store a large number of Data Sticks with recipes of Assembly Lines and supply them with these recipes.
 
 ##### General
 
