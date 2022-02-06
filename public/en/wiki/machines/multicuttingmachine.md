@@ -26,6 +26,10 @@ Performs all the recipes of the primitive analog.
 
 Performs all the recipes of the primitive analog.
 
+##### Important!
+
+Doesn't ignore the requirement 'Needs Cleanroom'.
+
 ##### Structure features
 
 The color of the I-Glass in the structure does not matter.
