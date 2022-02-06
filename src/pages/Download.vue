@@ -96,7 +96,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .bg-none {
   background: none;
 }
@@ -106,5 +106,19 @@ export default {
   margin-top: -8px;
   margin-right: 12px;
   padding: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: rgba(94, 94, 94, 0.66);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1976D2FF;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #1976D2FF;
 }
 </style>
