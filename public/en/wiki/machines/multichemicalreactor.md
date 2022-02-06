@@ -9,3 +9,7 @@ The machine is analog to Large Chemical Reactor. Can work with parallelism.
 ##### General
 
 Performs all the recipes of analog.
+
+##### Structure features
+
+The color of the I-Glass in the structure does not matter.
