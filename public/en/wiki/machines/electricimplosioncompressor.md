@@ -4,7 +4,7 @@
 
 ##### Description
 
-The mechanism is an improved version of the Implosion Compressor. It can work with multi-amp Energy Hatch.
+The mechanism is an improved version of the Implosion Compressor.
 
 ##### General
 
