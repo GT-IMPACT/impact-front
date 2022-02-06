@@ -4,7 +4,7 @@
 
 ##### Description
 
-The mechanism is analog of Centrifuge. Can work with multi-amp Energy Hatch.
+The mechanism is analog of Centrifuge.
 
 ##### General
 
