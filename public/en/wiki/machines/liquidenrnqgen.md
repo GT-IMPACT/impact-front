@@ -17,3 +17,5 @@ Outputs 8,388,608 eU/t.
 ##### Structure features
 
 The color of the I-Glass in the structure does not matter.
+
+Quantum Stuff on top appears when the structure is properly assembled.
