@@ -1,22 +1,94 @@
 const updateList = [
-  // {
-  //   label: '1.0.1.7',
-  //   name: 'last',
-  //   date: '21.01.2022',
-  //   title: 'Oh, bugs, again..',
-  //   desc: 'Many bug fixed, GT p2p, main menu and more recipes.',
-  //   img: '',
-  //   linkServer: '',
-  //   linkClient: '',
-  //   changelog: [
-  //     {
-  //       label: 'GREGTECH', children: [{label: 'test'}]
-  //     },
-  //   ]
-  // },
   {
-    label: '1.0.1.8',
+    label: '1.0.1.9',
     name: 'last',
+    id: '1019',
+    date: '26 Mar 2022',
+    title: 'Global optimization',
+    desc: 'Impact performance, limit lag by multi blocks and more..',
+    img: 'https://cdn.discordapp.com/attachments/916393114166525974/957484942076551218/1019.png',
+    linkServer: 'https://gtimpact.space/go/releases/1.0.1.9/IMPACT-1.0.1.9-SERVER.zip',
+    linkClient: 'https://gtimpact.space/go/releases/1.0.1.9/IMPACT-1.0.1.9-CLIENT.zip',
+    changelog: [
+      {
+        label: 'IMPACT', children: [
+          {label: 'fix new miners'},
+          {label: 'fix new ore system'},
+          {label: 'fix hologram lazy frame box'},
+          {label: 'fix render lasers'},
+          {label: 'fix render The Mill'},
+          {label: 'fix Antimatter Reactor'},
+          {label: 'fix NEI new ores'},
+          {label: 'fix gui Communication Tower'},
+          {label: 'fix energy dupe pipeline'},
+          {label: 'fix server-side errors'},
+          {label: 'fix Huge Steam Turbine energy output'},
+          {label: 'fix Multi Distillation Tower outputs hatches'},
+          {label: 'fix lasers output'},
+          {label: 'fix Lumber Axe infinity durability'},
+          {label: 'fix Coke Oven gui'},
+          {label: 'fix Drying Rack NEI recipes'},
+          {label: 'fix galena ore (Silicone ore to Silver ore)'},
+          {label: 'refactor recipe checker multis'},
+          {label: 'refactor Space Elevator'},
+          {label: 'nerf Energy Crystal capacity blocks'},
+          {label: 'add Non-serviceable Maintenance Hatch'},
+          {label: 'add support AE2 and EC2 support Single- and Multi- Tanks by I/O Hatch'},
+          {label: 'add more single-block solar tier'},
+          {label: 'add async save IMPACT files'},
+          {label: 'add more performance recipe builder for IMPACT multis'},
+          {label: 'add kotlin lang for devs'},
+          {label: 'add limited config max tickrate multis (default: 2 ticks)'},
+        ]
+      }, {
+        label: 'GREGTECH', children: [
+          {label: 'fix slots Forming Press'},
+          {label: 'fix AE2 P2P'},
+          {label: 'fix lag and crash Disassembler'},
+          {label: 'fix bound tier lang'},
+          {label: 'fix Distillation Tower outputs hatches'},
+          {label: 'refactor Transformer'},
+          {label: 'refactor Cables (on Graphs)'},
+          {label: 'refactor Textures (Glow, Default and more types)'},
+          {label: 'add more hatches id'},
+          {label: 'add limited config max tickrate multis'},
+        ]
+      }, {
+        label: 'DETRAV SCANNER (PROSPECTORS)', children: [
+          {label: 'fix charges'},
+          {label: 'fix prospecting new IMPACT ore system'},
+          {label: 'fix render gui'},
+          {label: 'add single use prospector'},
+        ]
+      }, {
+        label: 'NOT ENOUGH ENERGISTICS', children: [
+          {label: 'fix scroll in gui'},
+        ]
+      }, {
+        label: 'AE2STUFF', children: [
+          {label: 'fix consume wireless'},
+        ]
+      }, {
+        label: 'IMPACT RECIPE MODULE', children: [
+          {label: 'fix NBT Drills'},
+          {label: 'fix recipe of Energy Acceptor'},
+          {label: 'fix recipe of Ender Quarry '},
+          {label: 'fix recipe of Neutronium Plasma'},
+          {label: 'fix Firebox recipes '},
+          {label: 'fix energy consumptions'},
+          {label: 'fix hermetic nbt'},
+          {label: 'change recipe of Coke Oven'},
+          {label: 'add recipe for DataReader'},
+          {label: 'add alternative recipe for Naquadah in BlastFurnace'},
+          {label: 'add handcraft recipes for P2P tunnels '},
+          {label: 'add UXV circuits in StarGate Base '},
+          {label: 'add new recipe of Radiation Proof Casing'},
+        ]
+      }
+    ]
+  }, {
+    label: '1.0.1.8',
+    name: '1018',
     id: '1018',
     date: '07 Jan 2022',
     title: 'The Mill triggered',
@@ -50,18 +122,18 @@ const updateList = [
         label: 'ImpactAPI', children: [
           {label: 'fix server crash'},
         ]
-      },{
+      }, {
         label: 'IMPACT RECIPE MODULE', children: [
           {label: 'fix CoalChunk recipe'},
           {label: 'add The Mill Rotor recipe'},
         ]
-      },{
+      }, {
         label: '', children: [
           {label: ''},
         ]
       },
     ]
-  },{
+  }, {
     label: '1.0.1.7',
     name: '1017',
     id: '1017',
@@ -229,11 +301,11 @@ const updateList = [
         label: 'GalacticGreg', children: [
           {label: 'removed mod'},
         ]
-      },{
+      }, {
         label: 'AE2-P2P-GT', children: [
           {label: 'transfer to AE2 and removed'},
         ]
-      },{
+      }, {
         label: 'IMPACT RECIPE MODULE', children: [
           {label: 'fix recipe of Crystal Board'},
           {label: 'add unboxing recipes for MystCrystal Capacitors'},
@@ -275,7 +347,7 @@ const updateList = [
           {label: 'remove UU-Matter from recipes'},
           {label: 'remove TiCo recipes!!!'},
         ]
-      },{
+      }, {
         label: '', children: [
           {label: ''},
         ]
