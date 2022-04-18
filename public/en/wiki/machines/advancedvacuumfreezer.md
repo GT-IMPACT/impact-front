@@ -4,7 +4,7 @@
 
 ##### Description
 
-The machine is an improved version of the Vacuum Freezer. Can work with parallelism.
+The machine is an improved version of the Vacuum Freezer. Can work with [parallelism](/wiki/mechanics#parallelism).
 
 ##### General
 

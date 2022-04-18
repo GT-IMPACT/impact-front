@@ -4,11 +4,11 @@
 
 ##### Description
 
-The machine is analog to Precision Laser Engraver. Can work with parallelism.
+The machine is analog to Precision Laser Engraver. Can work with [parallelism](/wiki/mechanics#parallelism).
 
 ##### General
 
-Performs all the recipes of the singleblock analog. 
+Performs all the recipes of the singleblock analog.
 
 Can work with a lot of programmed circuits or lenses that are in different Input Buses. The recipe is executed with the circuit\lens that is in the same Input Bus as the materials.
 

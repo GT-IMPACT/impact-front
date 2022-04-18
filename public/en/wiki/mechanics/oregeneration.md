@@ -8,6 +8,25 @@ The world of IMPACT presents a completely unique system for generating fossil re
 
 Despite the lack of the ability to detect veins with the naked eye, this generation provides a more comfortable mining experience.
 
+##### First Start
+
+To get the first resources, you need a tool - Forge Hammer (with a special mode - Advanced Harvester Mode).
+
+The mode is activated by the Right Mouse Click on the ground.
+With this mode, you can mine any rock and you will get special stones (see picture):
+
+![SMALL](https://cdn.discordapp.com/attachments/916393114166525974/946019723617914910/unknown.png)
+
+There are 3 types of stones:
+
+- Mineral (gypsum, calcite)
+- Metallic (iron, copper, tin, lead)
+- Coal-sulfur (coal, lignite, sulfur)
+
+After extraction of the stones, they are processed in a special machine - [The Mill](wiki/machines#themill)
+
+![SMALL](https://cdn.discordapp.com/attachments/916393114166525974/946022528411893770/unknown.png)
+
 ##### Principle of ore generation
 
 Ore is generated in regions 512x512 block, there are 64 different veins in a region, which are generated in 16 chunks (4x4).

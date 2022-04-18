@@ -4,7 +4,7 @@
 
 ##### Description
 
-The machine is analog to Electromagnetic Separator and Sifting Machine. Can work with parallelism.
+The machine is analog to Electromagnetic Separator and Sifting Machine. Can work with [parallelism](/wiki/mechanics#parallelism).
 
 ##### General
 

@@ -4,7 +4,7 @@
 
 ##### Описание
 
-Машина является аналогом Autoclave, Dust Washer, Ore Washing Plant и Chemical Bath. Может работать с параллельностью.
+Машина является аналогом Autoclave, Dust Washer, Ore Washing Plant и Chemical Bath. Может работать с [параллельностью](/wiki/mechanics#parallelism).
 
 ##### Главное
 
@@ -28,4 +28,4 @@
 
 ##### Особенности структуры
 
-Цвет I-Glass в структуре не имеет значения. 
+Цвет I-Glass в структуре не имеет значения.

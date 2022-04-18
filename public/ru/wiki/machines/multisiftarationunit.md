@@ -4,11 +4,11 @@
 
 ##### Описание
 
-Машина является аналогом Electromagnetic Separator и Sifting Machine. Может работать с параллельностью.
+Машина является аналогом Electromagnetic Separator и Sifting Machine. Может работать с [параллельностью](/wiki/mechanics#parallelism).
 
 ##### Главное
 
-Имеет два режима работы. Режимы переключаются отвёрткой. 
+Имеет два режима работы. Режимы переключаются отвёрткой.
 
 ##### Режим 1. Electromagnetic Separator
 

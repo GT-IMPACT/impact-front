@@ -430,5 +430,176 @@
     "article": "wiki/machines/databank.md",
     "img": "https://cdn.discordapp.com/attachments/916393114166525974/916693113970499634/DB.png",
     "mod": "tectech"
+  },
+  {
+    "id": 48,
+    "name": "ELECTRIC IMPLOSION COMPRESSOR",
+    "slug": "electricimplosioncompressor",
+    "tier": "luv",
+    "article": "wiki/machines/electricimplosioncompressor.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939222212240637952/EIMPLOSpng.png",
+    "mod": "impact"
+  },
+  {
+    "id": 49,
+    "name": "BASIC 3D PRINTER",
+    "slug": "3dprinterbasic",
+    "tier": "hv",
+    "article": "wiki/machines/3dprinterbasic.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939221716754894929/3DPrint.png",
+    "mod": "impact"
+  },
+  {
+    "id": 50,
+    "name": "ADVANCED 3D PRINTER",
+    "slug": "3dprinteradvanced",
+    "tier": "iv",
+    "article": "wiki/machines/3dprinteradvanced.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939221716226437130/Adv3DPrint.png",
+    "mod": "impact"
+  },
+  {
+    "id": 51,
+    "name": "ELECTRIC AIR FILTER",
+    "slug": "electricairfilter",
+    "tier": "hv",
+    "article": "wiki/machines/electricairfilter.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939873326082449448/AIR_FILTER.png",
+    "mod": "impact"
+  },
+  {
+    "id": 52,
+    "name": "TINY WORMHOLE",
+    "slug": "tinywormhole",
+    "tier": "uv",
+    "article": "wiki/machines/tinywormhole.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939873328078938122/TINI_WORMHOLE.png",
+    "mod": "impact"
+  },
+  {
+    "id": 53,
+    "name": "FLOTATION UNIT",
+    "slug": "flotationunit",
+    "tier": "ev",
+    "article": "wiki/machines/flotationunit.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939873327336542208/FLOTATION_UNIT.png",
+    "mod": "impact"
+  },
+  {
+    "id": 54,
+    "name": "MULTIBLOCK ELECTROLYZER",
+    "slug": "multiblockelectrolyzer",
+    "tier": "ev",
+    "article": "wiki/machines/multiblockelectrolyzer.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939873326627684413/ELECTROLYZER.png",
+    "mod": "impact"
+  },
+  {
+    "id": 55,
+    "name": "MULTIBLOCK CENTRIFUGE",
+    "slug": "multiblockcentrifuge",
+    "tier": "ev",
+    "article": "wiki/machines/multiblockcentrifuge.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939873326405402654/CENTRIFUGE.png",
+    "mod": "impact"
+  },
+  {
+    "id": 56,
+    "name": "MULTIBLOCK FARM",
+    "slug": "multiblockfarm",
+    "tier": "mv",
+    "article": "wiki/machines/multiblockfarm.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939873327101653073/FARM.png",
+    "mod": "impact"
+  },
+  {
+    "id": 57,
+    "name": "SOLID-OXIDE GENERATOR",
+    "slug": "sofg",
+    "tier": "ev",
+    "article": "wiki/machines/sofg.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939876293179232336/SOFC.png",
+    "mod": "impact"
+  },
+  {
+    "id": 58,
+    "name": "HUGE STEAM TURBINE",
+    "slug": "hugesteamturbine",
+    "tier": "iv",
+    "article": "wiki/machines/hugesteamturbine.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939873327797927957/HUGE_TURBINE.png",
+    "mod": "impact"
+  },
+  {
+    "id": 59,
+    "name": "HEAVY METAL CYCLONE",
+    "slug": "heavymetalcyclone",
+    "tier": "luv",
+    "article": "wiki/machines/heavymetalcyclone.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939873327567224912/HMC.png",
+    "mod": "impact"
+  },
+  {
+    "id": 60,
+    "name": "SPACE ELEVATOR",
+    "slug": "spaceelevator",
+    "tier": "ev",
+    "article": "wiki/machines/spaceelevator.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939873326879371364/ELEVATOR.png",
+    "mod": "impact"
+  },
+  {
+    "id": 61,
+    "name": "SINGLE-TANK",
+    "slug": "singletank",
+    "tier": "hv",
+    "article": "wiki/machines/singletank.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939742067645632522/SINGLE_TANK.png",
+    "mod": "impact"
+  },
+  {
+    "id": 62,
+    "name": "MULTI-TANK",
+    "slug": "multitank",
+    "tier": "hv",
+    "article": "wiki/machines/multitank.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939737636766113832/MULTI_TANK.png",
+    "mod": "impact"
+  },
+  {
+    "id": 63,
+    "name": "LIQUID NAQUADAH GENERATOR",
+    "slug": "liquidnqgen",
+    "tier": "luv",
+    "article": "wiki/machines/liquidnqgen.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939742068505477201/NQ_LIQUID.png",
+    "mod": "impact"
+  },
+  {
+    "id": 64,
+    "name": "LIQUID ENRICHED NAQUADAH GENERATOR",
+    "slug": "liquidenrnqgen",
+    "tier": "zpm",
+    "article": "wiki/machines/liquidenrnqgen.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939742067893088256/NQ_ENRICH.png",
+    "mod": "impact"
+  },
+  {
+    "id": 65,
+    "name": "HYPER GENERATOR",
+    "slug": "hypergen",
+    "tier": "uv",
+    "article": "wiki/machines/hypergen.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939742068278976522/NQ_HYPER.png",
+    "mod": "impact"
+  },
+  {
+    "id": 66,
+    "name": "INDUSTRIAL PULVERIZER",
+    "slug": "industrialpulverizer",
+    "tier": "mv",
+    "article": "wiki/machines/industrialpulverizer.md",
+    "img": "https://cdn.discordapp.com/attachments/916393114166525974/939221716540989510/IndustrialPulverizer.png",
+    "mod": "impact"
   }
 ]

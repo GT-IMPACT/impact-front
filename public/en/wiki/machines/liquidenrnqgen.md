@@ -8,11 +8,11 @@ Powerful generator working on enriched Naquadah Fuel (Light, Medium, Heavy Enric
 
 ##### General
 
-It is possible to set up to 3 Input Hatch for 3 fuels. 
+It is possible to set up to 3 Input Hatch for 3 fuels.
 
-Generator starts to output energy only after reaching 100% efficiency (acceleration in 20 sec.). 
+Generator starts to output energy only after reaching 100% efficiency (acceleration in 20 sec.).
 
-Outputs 8,388,608 eU/t.
+Outputs 8,388,608 EU/t.
 
 ##### Structure features
 

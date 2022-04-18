@@ -54,7 +54,7 @@ Setting the frequency for connecting the Computer to the Communication Tower:
 
 Parallel Processors in a Computer Rack:
 
-![BIG](https://gtimpact.space/media/gregtech/ComputerRackGUI.png)
+![SMALL](https://gtimpact.space/media/gregtech/ComputerRackGUI.png)
 
 Setting up the transmit of PP from the computer to the machine:
 

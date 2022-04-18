@@ -4,11 +4,11 @@
 
 ##### Description
 
-The machine is analog to Arc Furnace, Alloy Smelter and Drying Oven. Can work with parallelism.
+The machine is analog to Arc Furnace, Alloy Smelter and Drying Oven. Can work with [parallelism](/wiki/mechanics#parallelism).
 
 ##### General
 
-It has three operating modes. Modes are switched with a screwdriver. 
+It has three operating modes. Modes are switched with a screwdriver.
 
 Can work with a lot of molds that are in different Input Buses in 'Bus separated on' mode (switched with a screwdriver while holding down the Shift key). The recipe is executed with the mold that is in the same Input Bus as the materials.
 

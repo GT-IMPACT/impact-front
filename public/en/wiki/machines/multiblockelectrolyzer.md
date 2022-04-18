@@ -1,6 +1,6 @@
 ### MULTIBLOCK ELECTROLYZER
 
-![LOGO](https://cdn.discordapp.com/attachments/916288528546144256/939506844962005033/electrolyzer.png)
+![LOGO](https://cdn.discordapp.com/attachments/916393114166525974/939873326627684413/ELECTROLYZER.png)
 
 ##### Description
 

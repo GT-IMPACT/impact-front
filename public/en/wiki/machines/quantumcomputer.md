@@ -16,7 +16,7 @@ When the computer is running, the racks with the circuits get hot. If an unbalan
 
 ##### Energy consumption
 
-A quantum computer consumes 524,288 * (1 + n) eU/t,
+A quantum computer consumes 524,288 * (1 + n) EU/t,
 
 n - number of racks with circuits (empty racks do not consume energy)
 

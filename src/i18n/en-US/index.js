@@ -59,6 +59,9 @@ export default {
   update_title_1018: "The Mill triggered",
   update_desc_1018: "Fixed recipes balance and wind mill, all right",
 
+  update_date_1019: "03.26.22",
+  update_title_1019: "Global optimization",
+  update_desc_1019: "Impact performance, limit lag by multi blocks and more..",
 
   wiki_modpack: 'Wiki modpack',
   wiki_desc: 'Description',

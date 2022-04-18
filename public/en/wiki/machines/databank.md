@@ -14,7 +14,7 @@ The Data Bank communicates with the Assembly Lines by means of Optical Fibre Cab
 
 For operation, the transmitter, receiver and the cable connecting them must be painted the same color. Optical Fibre Cables painted in different colors are not interconnected.
 
-The Data Bank consumes 2,048 * (a * b + 1) eU/t,
+The Data Bank consumes 2,048 * (a * b + 1) EU/t,
 
 a >= 1 - number of Data Access Hatches,
 

@@ -1,10 +1,10 @@
 ### SPACE ELEVATOR
 
-![LOGO](https://cdn.discordapp.com/attachments/916288528546144256/939513076540137512/elevator.png)
+![LOGO](https://cdn.discordapp.com/attachments/916393114166525974/939873326879371364/ELEVATOR.png)
 
 ##### Описание
 
-Механизм позволяет попасть с Земли (Overworld) на ее орбиту и вернуться обратно. 
+Механизм позволяет попасть с Земли (Overworld) на ее орбиту и вернуться обратно.
 
 ##### Главное
 

@@ -1,6 +1,6 @@
 ### MULTIBLOCK CENTRIFUGE
 
-![LOGO](https://cdn.discordapp.com/attachments/916288528546144256/939507189628932207/centrifuge.png)
+![LOGO](https://cdn.discordapp.com/attachments/916393114166525974/939873326405402654/CENTRIFUGE.png)
 
 ##### Description
 

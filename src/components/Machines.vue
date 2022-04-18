@@ -151,7 +151,21 @@ h6 {
 
 
 a {
-  color: #2760de;
+  color: #1976D2FF;
   font-weight: 400;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: rgba(94, 94, 94, 0.66);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1976D2FF;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #1976D2FF;
 }
 </style>
