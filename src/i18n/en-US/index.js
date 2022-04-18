@@ -12,7 +12,7 @@ export default {
 
   //home page
   home_title_impact: 'Unique modpack based on gregtech',
-  update_progress: 'Update 1.0.1.8',
+  update_progress: 'Update 1.0.2.0',
 
 
   about_part1: 'Global industrial modpack for Minecraft 1.7.10, based on GregTech 5 and various mods deeply integrated with each other. ' +
@@ -62,6 +62,10 @@ export default {
   update_date_1019: "03.26.22",
   update_title_1019: "Global optimization",
   update_desc_1019: "Impact performance, limit lag by multi blocks and more..",
+
+  update_date_1020: "04.18.22",
+  update_title_1020: "Bug Hunt",
+  update_desc_1020: "Wild Hunt and Critical Bugs",
 
   wiki_modpack: 'Wiki modpack',
   wiki_desc: 'Description',
