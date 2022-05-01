@@ -22,7 +22,7 @@
           <q-tab-panels v-model="tab" animated>
             <template v-for="update in updates.updateList" :key="update">
               <q-tab-panel :name="update.name">
-                <q-card square flat style="padding-top: 60px; padding-bottom: 60px">
+                <q-card flat square style="padding-top: 60px; padding-bottom: 60px">
                   <q-card class="row justify-evenly q-py-none" flat square>
                     <q-card>
                       <q-img :src="update.img" height="360px" width="720px" />
@@ -33,30 +33,35 @@
                           <span class="text-h3 q-mb-md text-bold">{{ update.label }}</span>
                           <span class="q-mx-sm">{{ $t('update_date_' + update.id) }}</span>
                         </q-card-section>
-                        <div class="text-h5 q-my-md text-bold">{{ $t('update_title_' + update.id)  }}</div>
-                        <q-item class="justify-center items-center" style="width: 450px">{{ $t('update_desc_' + update.id) }}</q-item>
+                        <div class="text-h5 q-my-md text-bold">{{ $t('update_title_' + update.id) }}</div>
+                        <q-item class="justify-center items-center" style="width: 450px">
+                          {{ $t('update_desc_' + update.id) }}
+                        </q-item>
                       </q-card-section>
                       <q-card-section class="q-py-none">
-                        <q-btn :href="update.linkClient" class="q-mx-sm" flat :label="$t('client')" no-caps style="border: 1px solid black; width: 100px" type="a" target="_blank"/>
-                        <q-btn :href="update.linkServer" class="q-mx-sm" flat :label="$t('server')" no-caps style="border: 1px solid black; width: 100px" type="a" target="_blank"/>
+                        <q-btn :href="update.linkClient" :label="$t('client')" class="q-mx-sm" flat no-caps style="border: 1px solid black; width: 100px" target="_blank" type="a" />
+                        <q-btn :href="update.linkServer" :label="$t('server')" class="q-mx-sm" flat no-caps style="border: 1px solid black; width: 100px" target="_blank" type="a" />
+                        <q-btn class="q-mx-sm" flat href="https://www.curseforge.com/minecraft/modpacks/impact-gt-edition" icon="img:https://cdn.discordapp.com/attachments/916393114166525974/970203846037110784/unoptimized_logo.svg" no-caps style="border: 1px solid black; width: 100px" target="_blank" type="a" />
                       </q-card-section>
                       <q-card-section>
-                        <q-item class="justify-center items-center q-py-none" style="font-size: 12px;">{{$t('download_server_cores')}}</q-item>
-                        <q-btn :href="'https://gtimpact.space/go/server_cores/THERMOS_IMPACT_EMPTY_SERVER.zip'" class="q-mx-sm" flat label="Thermos" no-caps size="md" type="a" target="_blank"/>
-                        <q-btn :href="'https://gtimpact.space/go/server_cores/ULTRAMINE_ORIGINAL_IMPACT_EMPTY_SERVER.zip'" class="q-mx-sm" flat label="UltraMine" no-caps size="md" type="a" target="_blank"/>
-                        <q-btn :href="'https://gtimpact.space/go/server_cores/ULTRAMINE_PATCHED_IMPACT_EMPTY_SERVER.zip'" class="q-mx-sm" flat label="UltraMine (IMPACT)" no-caps size="md" type="a" target="_blank"/>
+                        <q-item class="justify-center items-center q-py-none" style="font-size: 12px;">
+                          {{ $t('download_server_cores') }}
+                        </q-item>
+                        <q-btn :href="'https://gtimpact.space/go/server_cores/THERMOS_IMPACT_EMPTY_SERVER.zip'" class="q-mx-sm" flat label="Thermos" no-caps size="md" target="_blank" type="a" />
+                        <q-btn :href="'https://gtimpact.space/go/server_cores/ULTRAMINE_ORIGINAL_IMPACT_EMPTY_SERVER.zip'" class="q-mx-sm" flat label="UltraMine" no-caps size="md" target="_blank" type="a" />
+                        <q-btn :href="'https://gtimpact.space/go/server_cores/ULTRAMINE_PATCHED_IMPACT_EMPTY_SERVER.zip'" class="q-mx-sm" flat label="UltraMine (IMPACT)" no-caps size="md" target="_blank" type="a" />
                       </q-card-section>
                     </q-card>
                   </q-card>
                   <q-card class="q-my-lg">
-                    <span class="text-h6 q-mb-md text-bold">{{$t('changelog')}}</span>
+                    <span class="text-h6 q-mb-md text-bold">{{ $t('changelog') }}</span>
                     <q-card-section class="q-pa-md q-gutter-sm">
-                        <q-input square style="width: 200px" ref="filterRef" v-model="filter" :label="$t('search')">
-                          <template v-slot:append>
-                            <q-icon v-if="filter !== ''" name="clear" class="cursor-pointer" @click="resetFilter" />
-                          </template>
-                        </q-input>
-                        <q-tree :nodes="update.changelog" node-key="label" default-expand-all :filter="filter" />
+                      <q-input ref="filterRef" v-model="filter" :label="$t('search')" square style="width: 200px">
+                        <template v-slot:append>
+                          <q-icon v-if="filter !== ''" class="cursor-pointer" name="clear" @click="resetFilter" />
+                        </template>
+                      </q-input>
+                      <q-tree :filter="filter" :nodes="update.changelog" default-expand-all node-key="label" />
                     </q-card-section>
                   </q-card>
                 </q-card>
@@ -82,7 +87,7 @@ export default {
     const filterRef = ref(null)
 
     return {
-      resetFilter () {
+      resetFilter() {
         filter.value = ''
         filterRef.value.focus()
       },

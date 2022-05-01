@@ -42,6 +42,9 @@
             <q-btn type="a" href="https://vk.com/gregcorporation" target="_blank" class="border-radius-inherit" flat icon="img:https://cdn.discordapp.com/attachments/886791383740985464/886959234552586240/vk-brands.svg" style="color: white" />
           </q-card-section>
           <q-card-section>
+            <q-btn type="a" href="https://www.curseforge.com/minecraft/modpacks/impact-gt-edition" target="_blank" class="border-radius-inherit" flat icon="img:https://cdn.discordapp.com/attachments/916393114166525974/970202929879457822/unoptimized_logo.svg" style="color: white" />
+          </q-card-section>
+          <q-card-section>
             <q-btn type="a" href="https://boosty.to/gt-impact" target="_blank" class="border-radius-inherit" flat>
               <q-icon name="img:https://cdn.discordapp.com/attachments/886791383740985464/886956617227190294/White.svg" size="28px"/>
             </q-btn>
