@@ -33,6 +33,10 @@ const routes = [
         path: '/wiki/mechanics',
         component: () => import('pages/wiki/Mechanics')
       },
+      {
+        path: '/wiki/items',
+        component: () => import('pages/wiki/ItemsAndTools')
+      },
     ]
   },
 
